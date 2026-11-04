@@ -13,7 +13,7 @@ The Rohingya Development Organisation (RDO) works with humility, transparency, a
 
 ### Core Leadership & Contacts
 - **Founder & Executive Director**: Ershad Hossain
-- **Primary Contact**: `+880 1879-479062` (WhatsApp & Call)
+- **Primary Contact**: `+880 1879-479062` (WhatsApp & Voice)
 - **Secondary Contact**: `+880 1832-103006`
 - **Official Organization Email**: `rohingyadevelopmento@gmail.com`
 - **Executive Email**: `irshaadhussainarsd@gmail.com`
@@ -25,11 +25,9 @@ The Rohingya Development Organisation (RDO) works with humility, transparency, a
 
 - **Target Population**: 200 Rohingya children and youth across 4 camps
 - **Centres**: 4 community-based learning centres (50 students each; Camps 4, 5, 17 & 18)
-- **Project Duration**: 12 Months
-- **Total Budget**: USD $50,000 (about $250 per student / $12,500 per centre)
 - **Gender Target**: At least 50% girls enrolled
 - **Schedule**: 08:30 – 15:00 daily structured shifts
-- **Proposed Partner**: Norwegian Refugee Council (NRC), Bangladesh
+- **Approach**: Complementary community-led initiative coordinated with camp authorities
 
 ### Core Pillars
 1. **Foundational Learning**: Literacy, numeracy, English, and study clubs
@@ -41,19 +39,16 @@ The Rohingya Development Organisation (RDO) works with humility, transparency, a
 
 ---
 
-## 📄 Key Repository Files
+## 📱 Multi-Device Experience
 
-- `index.html` - Complete modern, accessible, world-class single-page website
-- `rdo-logo.png` - Official high-resolution brand logo extracted from the proposal
-- `favicon.png` - Browser icon
-- `RDO-Learning-Centres-Proposal.pdf` - Complete 7-page official project proposal submitted to NRC
-- `.nojekyll` - Ensures smooth GitHub Pages static hosting
+- **Desktop Version**: Full-width interactive layouts, detailed capability breakdowns, schedule overviews, sticky header navigation, and desktop-optimized hover states.
+- **Mobile Version**: Responsive single-column layouts, touch-friendly tap targets, hamburger drawer navigation, and a sticky bottom quick-action bar (`Call`, `WhatsApp`, `Email`, `Partner`) for direct one-tap mobile communication.
 
 ---
 
 ## 🚀 Live Website & Deployment
 
-This website is deployed via **GitHub Pages**.
+This website is hosted via **GitHub Pages**.
 
 - **Live URL**: `https://razintayyabr-netizen.github.io/rdo-rohingya-dev/`
 - **Repository**: `https://github.com/razintayyabr-netizen/rdo-rohingya-dev`

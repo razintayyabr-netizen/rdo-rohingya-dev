@@ -2,23 +2,23 @@
 <html lang="en" class="scroll-smooth">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0">
   <title>Rohingya Development Organisation (RDO) | Educate • Empower • Build Tomorrow</title>
-  <meta name="description" content="Rohingya Development Organisation (RDO) is a community-based non-profit operating in Cox's Bazar, Bangladesh. Empowering 200 Rohingya children and youth across Camps 4, 5, 17 & 18 through learning centres, digital literacy, child protection, and life skills.">
-  <meta name="keywords" content="Rohingya Development Organisation, RDO, Rohingya refugee education, Cox's Bazar learning centres, child protection, youth development, humanitarian education, Bangladesh">
+  <meta name="description" content="Rohingya Development Organisation (RDO) is a community-based non-profit in Cox's Bazar, Bangladesh, delivering education, digital literacy, child protection, and youth leadership across Camps 4, 5, 17, and 18.">
+  <meta name="keywords" content="Rohingya Development Organisation, RDO, Rohingya youth, refugee education, Cox's Bazar learning centres, child protection, digital literacy, life skills, Bangladesh">
   <meta name="author" content="Rohingya Development Organisation (RDO)">
 
-  <!-- Open Graph / Facebook -->
+  <!-- Open Graph / Social Media Meta -->
   <meta property="og:type" content="website">
-  <meta property="og:url" content="https://rohingyadevelopment.org">
+  <meta property="og:url" content="https://razintayyabr-netizen.github.io/rdo-rohingya-dev/">
   <meta property="og:title" content="Rohingya Development Organisation (RDO) - Educate • Empower • Build Tomorrow">
-  <meta property="og:description" content="Community-based education, child protection, digital literacy, and youth empowerment in Cox's Bazar refugee camps.">
+  <meta property="og:description" content="Community-based education, digital literacy, child protection, and youth empowerment across Camps 4, 5, 17, and 18 in Cox's Bazar.">
   <meta property="og:image" content="rdo-logo.png">
 
   <!-- Twitter Card -->
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="Rohingya Development Organisation (RDO)">
-  <meta name="twitter:description" content="Empowering 200 Rohingya children and youth across Camps 4, 5, 17 & 18, Cox's Bazar.">
+  <meta name="twitter:description" content="Community-based education, digital literacy, child protection, and youth empowerment in Cox's Bazar.">
   <meta name="twitter:image" content="rdo-logo.png">
 
   <link rel="icon" type="image/png" href="favicon.png">
@@ -55,11 +55,13 @@
             leaf: {
               50: '#ecfdf5',
               100: '#d1fae5',
+              400: '#34d399',
               500: '#10b981',
               600: '#059669',
               700: '#047857',
             },
             sun: {
+              300: '#fcd34d',
               400: '#fbbf24',
               500: '#f59e0b',
               600: '#d97706',
@@ -83,265 +85,238 @@
     }
     .hero-pattern {
       background-color: #0c3d6e;
-      background-image: radial-gradient(#10b981 0.75px, transparent 0.75px), radial-gradient(#36a4fa 0.75px, #0c3d6e 0.75px);
-      background-size: 30px 30px;
-      background-position: 0 0, 15px 15px;
+      background-image: radial-gradient(#10b981 0.8px, transparent 0.8px), radial-gradient(#36a4fa 0.8px, #0c3d6e 0.8px);
+      background-size: 28px 28px;
+      background-position: 0 0, 14px 14px;
     }
     .glass-card {
       background: rgba(255, 255, 255, 0.95);
       backdrop-filter: blur(12px);
-      border: 1px solid rgba(226, 232, 240, 0.8);
-    }
-    .glass-dark {
-      background: rgba(12, 61, 110, 0.85);
-      backdrop-filter: blur(12px);
-      border: 1px solid rgba(255, 255, 255, 0.1);
-    }
-    .gradient-border {
-      position: relative;
-      border-radius: 1rem;
-      background: linear-gradient(135deg, #0254a4, #10b981, #f59e0b);
-      padding: 1px;
-    }
-    .gradient-border-inner {
-      background: white;
-      border-radius: calc(1rem - 1px);
-    }
-    .animate-float {
-      animation: float 6s ease-in-out infinite;
-    }
-    @keyframes float {
-      0%, 100% { transform: translateY(0px); }
-      50% { transform: translateY(-8px); }
+      -webkit-backdrop-filter: blur(12px);
+      border: 1px solid rgba(226, 232, 240, 0.9);
     }
   </style>
 </head>
-<body class="bg-slate-50 text-slate-800 antialiased selection:bg-brand-500 selection:text-white">
+<body class="bg-slate-50 text-slate-800 antialiased selection:bg-brand-500 selection:text-white pb-16 md:pb-0">
 
-  <!-- TOP EMERGENCY & PARTNERSHIP BANNER -->
-  <aside aria-label="Announcement" class="bg-gradient-to-r from-brand-950 via-brand-900 to-brand-800 text-white text-xs md:text-sm py-2 px-4 shadow-sm border-b border-brand-700/50">
+  <!-- TOP EMERGENCY & COMMUNITY TICKER -->
+  <aside aria-label="Announcement" class="bg-gradient-to-r from-brand-950 via-brand-900 to-brand-800 text-white text-xs py-2 px-3 sm:px-6 border-b border-brand-700/40">
     <div class="max-w-7xl mx-auto flex flex-col sm:flex-row justify-between items-center gap-2">
-      <div class="flex items-center space-x-2 font-medium">
-        <span class="inline-flex items-center px-2 py-0.5 rounded-full text-xs font-semibold bg-leaf-500/20 text-leaf-300 border border-leaf-500/40">
-          <span class="w-1.5 h-1.5 rounded-full bg-leaf-400 mr-1.5 animate-pulse"></span> Proposal Submitted
+      <div class="flex items-center space-x-2 font-medium text-center sm:text-left">
+        <span class="inline-flex items-center px-2 py-0.5 rounded-full text-[10px] sm:text-xs font-semibold bg-leaf-500/20 text-leaf-300 border border-leaf-500/40 shrink-0">
+          <span class="w-1.5 h-1.5 rounded-full bg-leaf-400 mr-1.5 animate-pulse"></span> Community Initiative
         </span>
-        <span class="truncate">RDO Learning Centres for Rohingya Children & Youth • Camps 4, 5, 17 & 18</span>
+        <span class="truncate">Rohingya Development Organisation • Serving Camps 4, 5, 17 & 18</span>
       </div>
-      <div class="flex items-center space-x-4 text-xs">
-        <a href="tel:+8801879479062" class="hover:text-sun-400 transition-colors flex items-center gap-1">
-          <i class="fa-solid fa-phone"></i> +880 1879-479062
+      <div class="flex items-center space-x-3 text-xs">
+        <a href="tel:+8801879479062" class="hover:text-sun-300 transition-colors flex items-center gap-1">
+          <i class="fa-solid fa-phone text-[10px]"></i> +880 1879-479062
         </a>
         <span class="text-brand-600">|</span>
-        <a href="mailto:rohingyadevelopmento@gmail.com" class="hover:text-sun-400 transition-colors flex items-center gap-1">
-          <i class="fa-solid fa-envelope"></i> rohingyadevelopmento@gmail.com
+        <a href="mailto:rohingyadevelopmento@gmail.com" class="hover:text-sun-300 transition-colors flex items-center gap-1">
+          <i class="fa-solid fa-envelope text-[10px]"></i> rohingyadevelopmento@gmail.com
         </a>
-        <span class="hidden md:inline text-brand-600">|</span>
-        <a href="https://wa.me/8801879479062?text=Hello%20RDO,%20I%20am%20interested%20in%20supporting%20the%20Learning%20Centres%20project." target="_blank" class="hidden md:inline-flex items-center gap-1 text-leaf-300 hover:text-leaf-200 font-semibold">
-          <i class="fa-brands fa-whatsapp text-sm"></i> WhatsApp Support
+        <span class="hidden sm:inline text-brand-600">|</span>
+        <a href="https://wa.me/8801879479062?text=Hello%20RDO,%20I%20would%20like%20to%20learn%20more%20about%20your%20community%20learning%20centres." target="_blank" class="hidden sm:inline-flex items-center gap-1 text-leaf-300 hover:text-leaf-200 font-semibold">
+          <i class="fa-brands fa-whatsapp text-sm"></i> WhatsApp
         </a>
       </div>
     </div>
   </aside>
 
   <!-- NAVIGATION HEADER -->
-  <header class="sticky top-0 z-50 bg-white/95 backdrop-blur-md shadow-sm border-b border-slate-200">
+  <header class="sticky top-0 z-50 bg-white/95 backdrop-blur-md shadow-xs border-b border-slate-200">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
       <div class="flex justify-between items-center h-20">
         
-        <!-- LOGO & BRAND -->
+        <!-- BRAND LOGO -->
         <a href="#home" class="flex items-center space-x-3 group">
-          <img src="rdo-logo.png" alt="RDO Logo" class="h-14 w-auto object-contain transition-transform group-hover:scale-105 duration-200">
+          <img src="rdo-logo.png" alt="RDO Logo" class="h-12 sm:h-14 w-auto object-contain transition-transform group-hover:scale-105 duration-200">
           <div class="flex flex-col">
-            <span class="text-xl md:text-2xl font-extrabold tracking-tight text-brand-900 font-heading leading-tight group-hover:text-brand-700 transition-colors">
+            <span class="text-xl sm:text-2xl font-extrabold tracking-tight text-brand-900 font-heading leading-none group-hover:text-brand-700 transition-colors">
               RDO
             </span>
-            <span class="text-[11px] md:text-xs font-semibold text-slate-500 tracking-wider uppercase">
+            <span class="text-[10px] sm:text-xs font-semibold text-slate-500 tracking-wider uppercase mt-1">
               Rohingya Development Organisation
             </span>
-            <span class="text-[9px] text-leaf-600 font-medium">Educate • Empower • Build Tomorrow</span>
+            <span class="text-[9px] text-leaf-600 font-medium hidden sm:block">Educate • Empower • Build Tomorrow</span>
           </div>
         </a>
 
-        <!-- DESKTOP NAV LINKS -->
-        <nav class="hidden lg:flex items-center space-x-7 text-sm font-medium text-slate-700">
-          <a href="#about" class="hover:text-brand-600 transition-colors">About Us</a>
+        <!-- DESKTOP NAVIGATION -->
+        <nav class="hidden xl:flex items-center space-x-6 text-sm font-medium text-slate-700">
+          <a href="#about" class="hover:text-brand-600 transition-colors">About RDO</a>
           <a href="#project" class="hover:text-brand-600 transition-colors">Learning Centres</a>
-          <a href="#components" class="hover:text-brand-600 transition-colors">Our Pillars</a>
+          <a href="#pillars" class="hover:text-brand-600 transition-colors">Six Pillars</a>
+          <a href="#schedule" class="hover:text-brand-600 transition-colors">Daily Schedule</a>
           <a href="#camps" class="hover:text-brand-600 transition-colors">Camp Locations</a>
-          <a href="#budget" class="hover:text-brand-600 transition-colors">Budget & MEAL</a>
+          <a href="#accountability" class="hover:text-brand-600 transition-colors">Accountability & MEAL</a>
           <a href="#safeguarding" class="hover:text-brand-600 transition-colors">Safeguarding</a>
-          <a href="#proposal" class="hover:text-brand-600 transition-colors">Proposal</a>
           <a href="#contact" class="hover:text-brand-600 transition-colors">Contact</a>
         </nav>
 
-        <!-- HEADER ACTIONS -->
+        <!-- HEADER CTAS -->
         <div class="hidden sm:flex items-center space-x-3">
-          <a href="RDO-Learning-Centres-Proposal.pdf" download="RDO-Learning-Centres-Proposal.pdf" class="inline-flex items-center justify-center px-4 py-2 text-xs font-semibold rounded-lg text-brand-800 bg-brand-50 hover:bg-brand-100 border border-brand-200 transition-all shadow-xs">
-            <i class="fa-solid fa-file-pdf mr-1.5 text-red-500"></i> Proposal PDF
+          <a href="https://wa.me/8801879479062?text=Hello%20RDO,%20I%20would%20like%20to%20connect%20regarding%20partnerships%20and%20support." target="_blank" class="inline-flex items-center justify-center px-3.5 py-2 text-xs font-semibold rounded-lg text-emerald-800 bg-emerald-50 hover:bg-emerald-100 border border-emerald-200 transition-all shadow-2xs">
+            <i class="fa-brands fa-whatsapp text-sm mr-1.5 text-emerald-600"></i> WhatsApp
           </a>
           <a href="#get-involved" class="inline-flex items-center justify-center px-4 py-2 text-xs font-semibold rounded-lg text-white bg-brand-700 hover:bg-brand-800 transition-all shadow-md hover:shadow-lg transform active:scale-95">
-            <i class="fa-solid fa-hand-holding-heart mr-1.5 text-leaf-300"></i> Partner / Donate
+            <i class="fa-solid fa-hand-holding-heart mr-1.5 text-leaf-300"></i> Partner With Us
           </a>
         </div>
 
-        <!-- MOBILE HAMBURGER BUTTON -->
-        <button id="mobile-menu-btn" type="button" class="lg:hidden p-2 rounded-lg text-slate-600 hover:text-brand-700 hover:bg-slate-100 focus:outline-none focus:ring-2 focus:ring-brand-500" aria-label="Toggle Navigation">
-          <i class="fa-solid fa-bars text-xl"></i>
+        <!-- MOBILE MENU BUTTON -->
+        <button id="mobile-menu-btn" type="button" class="xl:hidden p-2 rounded-lg text-slate-700 hover:text-brand-700 hover:bg-slate-100 focus:outline-none focus:ring-2 focus:ring-brand-500" aria-label="Toggle Navigation">
+          <i id="menu-icon" class="fa-solid fa-bars text-xl"></i>
         </button>
       </div>
     </div>
 
     <!-- MOBILE MENU DRAWER -->
-    <div id="mobile-menu" class="hidden lg:hidden bg-white border-b border-slate-200 px-4 pt-3 pb-6 space-y-3">
-      <a href="#about" class="mobile-nav-link block px-3 py-2 rounded-md font-medium text-slate-700 hover:bg-slate-100 hover:text-brand-700">About Us</a>
-      <a href="#project" class="mobile-nav-link block px-3 py-2 rounded-md font-medium text-slate-700 hover:bg-slate-100 hover:text-brand-700">Learning Centres Project</a>
-      <a href="#components" class="mobile-nav-link block px-3 py-2 rounded-md font-medium text-slate-700 hover:bg-slate-100 hover:text-brand-700">Core Pillars</a>
-      <a href="#camps" class="mobile-nav-link block px-3 py-2 rounded-md font-medium text-slate-700 hover:bg-slate-100 hover:text-brand-700">Camp Locations</a>
-      <a href="#budget" class="mobile-nav-link block px-3 py-2 rounded-md font-medium text-slate-700 hover:bg-slate-100 hover:text-brand-700">Budget ($50,000) & MEAL</a>
-      <a href="#safeguarding" class="mobile-nav-link block px-3 py-2 rounded-md font-medium text-slate-700 hover:bg-slate-100 hover:text-brand-700">Safeguarding & PSEA</a>
-      <a href="#proposal" class="mobile-nav-link block px-3 py-2 rounded-md font-medium text-slate-700 hover:bg-slate-100 hover:text-brand-700">Official Proposal (NRC)</a>
-      <a href="#contact" class="mobile-nav-link block px-3 py-2 rounded-md font-medium text-slate-700 hover:bg-slate-100 hover:text-brand-700">Contact Us</a>
+    <div id="mobile-menu" class="hidden xl:hidden bg-white border-b border-slate-200 px-4 pt-3 pb-6 space-y-2 max-h-[80vh] overflow-y-auto">
+      <a href="#about" class="mobile-nav-link block px-3 py-2.5 rounded-lg font-medium text-slate-800 hover:bg-slate-100 hover:text-brand-700 text-sm">About RDO</a>
+      <a href="#project" class="mobile-nav-link block px-3 py-2.5 rounded-lg font-medium text-slate-800 hover:bg-slate-100 hover:text-brand-700 text-sm">Learning Centres Initiative</a>
+      <a href="#pillars" class="mobile-nav-link block px-3 py-2.5 rounded-lg font-medium text-slate-800 hover:bg-slate-100 hover:text-brand-700 text-sm">Six Educational Pillars</a>
+      <a href="#schedule" class="mobile-nav-link block px-3 py-2.5 rounded-lg font-medium text-slate-800 hover:bg-slate-100 hover:text-brand-700 text-sm">Daily Schedule & Methodology</a>
+      <a href="#camps" class="mobile-nav-link block px-3 py-2.5 rounded-lg font-medium text-slate-800 hover:bg-slate-100 hover:text-brand-700 text-sm">Camp Locations (4, 5, 17, 18)</a>
+      <a href="#accountability" class="mobile-nav-link block px-3 py-2.5 rounded-lg font-medium text-slate-800 hover:bg-slate-100 hover:text-brand-700 text-sm">Accountability & MEAL Framework</a>
+      <a href="#safeguarding" class="mobile-nav-link block px-3 py-2.5 rounded-lg font-medium text-slate-800 hover:bg-slate-100 hover:text-brand-700 text-sm">Safeguarding & PSEA Policies</a>
+      <a href="#faq" class="mobile-nav-link block px-3 py-2.5 rounded-lg font-medium text-slate-800 hover:bg-slate-100 hover:text-brand-700 text-sm">Frequently Asked Questions</a>
+      <a href="#contact" class="mobile-nav-link block px-3 py-2.5 rounded-lg font-medium text-slate-800 hover:bg-slate-100 hover:text-brand-700 text-sm">Contact Leadership</a>
+      
       <div class="pt-3 border-t border-slate-100 flex flex-col gap-2">
-        <a href="RDO-Learning-Centres-Proposal.pdf" download class="w-full text-center py-2.5 px-4 rounded-lg bg-brand-50 text-brand-800 font-semibold text-sm border border-brand-200">
-          <i class="fa-solid fa-file-pdf mr-1 text-red-500"></i> Download Full Proposal PDF
+        <a href="https://wa.me/8801879479062?text=Hello%20RDO,%20I%20am%20interested%20in%20partnering%20with%20your%20learning%20centres." target="_blank" class="w-full text-center py-2.5 px-4 rounded-lg bg-emerald-600 text-white font-semibold text-xs shadow flex items-center justify-center gap-2">
+          <i class="fa-brands fa-whatsapp text-sm"></i> Connect on WhatsApp
         </a>
-        <a href="#get-involved" class="mobile-nav-link w-full text-center py-2.5 px-4 rounded-lg bg-brand-700 text-white font-semibold text-sm shadow">
-          <i class="fa-solid fa-heart mr-1 text-leaf-300"></i> Support & Partner
+        <a href="#get-involved" class="mobile-nav-link w-full text-center py-2.5 px-4 rounded-lg bg-brand-700 text-white font-semibold text-xs shadow">
+          <i class="fa-solid fa-handshake mr-1.5"></i> Partner & Collaborate
         </a>
       </div>
     </div>
   </header>
 
   <!-- HERO SECTION -->
-  <section id="home" class="relative overflow-hidden hero-pattern text-white py-20 lg:py-28">
-    <!-- Background overlay glows -->
-    <div class="absolute inset-0 bg-gradient-to-b from-brand-950/70 via-brand-900/80 to-brand-950/95"></div>
-    <div class="absolute -top-40 -right-40 w-96 h-96 bg-leaf-500/20 rounded-full blur-3xl pointer-events-none"></div>
-    <div class="absolute -bottom-40 -left-40 w-96 h-96 bg-sun-500/15 rounded-full blur-3xl pointer-events-none"></div>
+  <section id="home" class="relative overflow-hidden hero-pattern text-white py-16 sm:py-20 lg:py-28">
+    <div class="absolute inset-0 bg-gradient-to-b from-brand-950/70 via-brand-900/85 to-brand-950/95 pointer-events-none"></div>
+    <div class="absolute -top-32 -right-32 w-80 h-80 bg-leaf-500/20 rounded-full blur-3xl pointer-events-none"></div>
+    <div class="absolute -bottom-32 -left-32 w-80 h-80 bg-sun-500/15 rounded-full blur-3xl pointer-events-none"></div>
 
     <div class="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-      <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
+      <div class="grid grid-cols-1 lg:grid-cols-12 gap-10 items-center">
         
         <!-- LEFT COLUMN: Main Pitch -->
         <div class="lg:col-span-7 space-y-6 text-center lg:text-left">
           
           <!-- Badge -->
-          <div class="inline-flex items-center space-x-2 px-3.5 py-1.5 rounded-full bg-white/10 backdrop-blur-md border border-white/20 text-xs md:text-sm font-medium text-white shadow-inner">
+          <div class="inline-flex items-center space-x-2 px-3.5 py-1.5 rounded-full bg-white/10 backdrop-blur-md border border-white/20 text-xs font-medium text-white shadow-inner">
             <span class="w-2 h-2 rounded-full bg-leaf-400 animate-ping"></span>
-            <span>Community-Based Humanitarian Non-Profit • Cox's Bazar, Bangladesh</span>
+            <span>Community-Rooted Humanitarian Initiative • Cox's Bazar, Bangladesh</span>
           </div>
 
           <!-- Main Title -->
           <h1 class="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-extrabold font-heading tracking-tight leading-tight text-white">
             Educating Children.<br>
-            <span class="text-transparent bg-clip-text bg-gradient-to-r from-sun-400 via-leaf-400 to-sky-300">
+            <span class="text-transparent bg-clip-text bg-gradient-to-r from-sun-300 via-leaf-400 to-sky-300">
               Empowering Youth.
             </span><br>
             Building Tomorrow.
           </h1>
 
-          <!-- Powerful Quote / Subhead -->
-          <blockquote class="text-base sm:text-lg md:text-xl text-slate-200 font-light border-l-4 border-leaf-400 pl-4 italic">
+          <!-- Powerful Subhead & Quote -->
+          <blockquote class="text-sm sm:text-base md:text-lg text-slate-200 font-light border-l-4 border-leaf-400 pl-4 italic text-left">
             “Every child has a dream. Every young person has potential. Displacement should not destroy their future.”
           </blockquote>
 
-          <p class="text-sm md:text-base text-slate-300 max-w-2xl leading-relaxed">
-            The <strong class="text-white font-semibold">Rohingya Development Organisation (RDO)</strong> proposes to establish and operate four community-based learning centres in <strong class="text-white">Camps 4, 5, 17, and 18</strong>. Providing 200 vulnerable children and youth with structured education, digital literacy, life skills, child protection, and GBV prevention awareness.
+          <p class="text-xs sm:text-sm md:text-base text-slate-300 max-w-2xl leading-relaxed mx-auto lg:mx-0">
+            The <strong class="text-white font-semibold">Rohingya Development Organisation (RDO)</strong> establishes safe, inclusive community learning centres in <strong class="text-white">Camps 4, 5, 17, and 18</strong>. We provide displaced children and adolescent youth with structured education, digital literacy, life skills, child protection awareness, and gender-based violence (GBV) prevention.
           </p>
 
           <!-- Action Buttons -->
-          <div class="flex flex-wrap items-center justify-center lg:justify-start gap-3 sm:gap-4 pt-2">
-            <a href="#project" class="px-6 py-3.5 rounded-xl bg-gradient-to-r from-leaf-500 to-leaf-600 hover:from-leaf-600 hover:to-leaf-700 text-white font-bold text-sm shadow-lg hover:shadow-leaf-500/25 transition-all transform hover:-translate-y-0.5 flex items-center gap-2">
-              <i class="fa-solid fa-graduation-cap"></i> Explore Project Model
+          <div class="flex flex-wrap items-center justify-center lg:justify-start gap-3 pt-2">
+            <a href="#project" class="px-5 py-3 rounded-xl bg-gradient-to-r from-leaf-500 to-leaf-600 hover:from-leaf-600 hover:to-leaf-700 text-white font-bold text-xs sm:text-sm shadow-lg hover:shadow-leaf-500/25 transition-all transform hover:-translate-y-0.5 flex items-center gap-2">
+              <i class="fa-solid fa-graduation-cap"></i> Explore Learning Centres
             </a>
-            <a href="RDO-Learning-Centres-Proposal.pdf" download class="px-6 py-3.5 rounded-xl bg-white/15 hover:bg-white/25 backdrop-blur-md text-white font-semibold text-sm border border-white/30 transition-all flex items-center gap-2">
-              <i class="fa-solid fa-download text-sun-400"></i> Download NRC Proposal (PDF)
+            <a href="#get-involved" class="px-5 py-3 rounded-xl bg-white/15 hover:bg-white/25 backdrop-blur-md text-white font-semibold text-xs sm:text-sm border border-white/30 transition-all flex items-center gap-2">
+              <i class="fa-solid fa-handshake text-sun-300"></i> Partner & Collaborate
             </a>
-            <a href="https://wa.me/8801879479062?text=Hello%20Ershad%20Hossain,%20I%20am%20interested%20in%20partnering%20with%20Rohingya%20Development%20Organisation." target="_blank" class="px-6 py-3.5 rounded-xl bg-brand-600/60 hover:bg-brand-500/70 border border-brand-400/40 text-white font-semibold text-sm transition-all flex items-center gap-2">
-              <i class="fa-brands fa-whatsapp text-leaf-400 text-base"></i> Direct WhatsApp
+            <a href="https://wa.me/8801879479062?text=Hello%20Ershad%20Hossain,%20I%20am%20interested%20in%20connecting%20with%20Rohingya%20Development%20Organisation." target="_blank" class="px-5 py-3 rounded-xl bg-emerald-600/70 hover:bg-emerald-500/80 border border-emerald-400/40 text-white font-semibold text-xs sm:text-sm transition-all flex items-center gap-2">
+              <i class="fa-brands fa-whatsapp text-white text-base"></i> WhatsApp
             </a>
           </div>
 
-          <!-- Quick Metrics Banner -->
-          <div class="pt-6 grid grid-cols-2 sm:grid-cols-4 gap-3 text-left">
-            <div class="bg-white/10 backdrop-blur-sm p-3 rounded-lg border border-white/10">
-              <div class="text-2xl font-bold font-heading text-sun-400">200</div>
-              <div class="text-xs text-slate-300">Rohingya Students</div>
+          <!-- Impact Metrics Strip -->
+          <div class="pt-4 grid grid-cols-2 sm:grid-cols-4 gap-3 text-left">
+            <div class="bg-white/10 backdrop-blur-sm p-3 rounded-xl border border-white/10">
+              <div class="text-xl sm:text-2xl font-bold font-heading text-sun-400">200</div>
+              <div class="text-[11px] text-slate-300">Displaced Students</div>
             </div>
-            <div class="bg-white/10 backdrop-blur-sm p-3 rounded-lg border border-white/10">
-              <div class="text-2xl font-bold font-heading text-leaf-400">4 Centres</div>
-              <div class="text-xs text-slate-300">Camps 4, 5, 17 & 18</div>
+            <div class="bg-white/10 backdrop-blur-sm p-3 rounded-xl border border-white/10">
+              <div class="text-xl sm:text-2xl font-bold font-heading text-leaf-400">4 Centres</div>
+              <div class="text-[11px] text-slate-300">Camps 4, 5, 17 & 18</div>
             </div>
-            <div class="bg-white/10 backdrop-blur-sm p-3 rounded-lg border border-white/10">
-              <div class="text-2xl font-bold font-heading text-sky-400">&ge;50%</div>
-              <div class="text-xs text-slate-300">Girls Enrolled Target</div>
+            <div class="bg-white/10 backdrop-blur-sm p-3 rounded-xl border border-white/10">
+              <div class="text-xl sm:text-2xl font-bold font-heading text-sky-400">&ge;50%</div>
+              <div class="text-[11px] text-slate-300">Girls Enrollment Focus</div>
             </div>
-            <div class="bg-white/10 backdrop-blur-sm p-3 rounded-lg border border-white/10">
-              <div class="text-2xl font-bold font-heading text-amber-300">$250</div>
-              <div class="text-xs text-slate-300">Cost / Student / Year</div>
+            <div class="bg-white/10 backdrop-blur-sm p-3 rounded-xl border border-white/10">
+              <div class="text-xl sm:text-2xl font-bold font-heading text-emerald-300">100%</div>
+              <div class="text-[11px] text-slate-300">PSEA Trained Staff</div>
             </div>
           </div>
 
         </div>
 
-        <!-- RIGHT COLUMN: Interactive Proposal Snapshot Card -->
+        <!-- RIGHT COLUMN: Interactive Blueprint Card -->
         <div class="lg:col-span-5">
-          <div class="glass-card rounded-2xl p-6 sm:p-8 text-slate-800 shadow-2xl relative overflow-hidden">
+          <div class="glass-card rounded-2xl p-6 sm:p-7 text-slate-800 shadow-2xl relative overflow-hidden">
             
-            <div class="absolute top-0 right-0 bg-gradient-to-l from-brand-600 to-leaf-500 text-white text-[11px] font-bold px-3 py-1 rounded-bl-lg tracking-wider uppercase shadow-xs">
-              Official Proposal
-            </div>
-
-            <!-- Card Header -->
-            <div class="flex items-center space-x-3 mb-4">
-              <div class="w-12 h-12 rounded-xl bg-brand-50 flex items-center justify-center border border-brand-100">
-                <img src="rdo-logo.png" alt="RDO" class="w-10 h-10 object-contain">
-              </div>
+            <div class="flex items-center space-x-3 mb-5 border-b border-slate-100 pb-4">
+              <img src="rdo-logo.png" alt="RDO Logo" class="w-12 h-12 object-contain bg-white rounded-lg p-1 border border-slate-100">
               <div>
-                <h2 class="text-base font-bold text-brand-950 font-heading">RDO Learning Centres</h2>
-                <p class="text-xs text-slate-500">Submitted to Norwegian Refugee Council (NRC)</p>
+                <h2 class="text-base font-bold text-brand-950 font-heading">RDO Learning Centres Blueprint</h2>
+                <p class="text-xs text-slate-500">Community-Based Refugee Youth Development</p>
               </div>
             </div>
 
-            <div class="space-y-3 text-xs sm:text-sm text-slate-600 mb-6">
+            <div class="space-y-3 text-xs sm:text-sm text-slate-600 mb-5">
               <div class="flex justify-between py-1.5 border-b border-slate-100">
-                <span class="text-slate-500">Project Duration</span>
-                <span class="font-semibold text-slate-800">12 Months (2026–2027)</span>
+                <span class="text-slate-500">Geographic Coverage</span>
+                <span class="font-semibold text-slate-800">Camps 4, 5, 17, and 18</span>
               </div>
               <div class="flex justify-between py-1.5 border-b border-slate-100">
-                <span class="text-slate-500">Total Funding Required</span>
-                <span class="font-bold text-brand-700">USD $50,000</span>
+                <span class="text-slate-500">Direct Learners</span>
+                <span class="font-bold text-brand-700">200 Children & Youth</span>
               </div>
               <div class="flex justify-between py-1.5 border-b border-slate-100">
-                <span class="text-slate-500">Cost Per Centre</span>
-                <span class="font-semibold text-slate-800">USD $12,500</span>
+                <span class="text-slate-500">Daily Operating Model</span>
+                <span class="font-semibold text-slate-800">2 Alternating Shifts (08:30–15:00)</span>
               </div>
               <div class="flex justify-between py-1.5 border-b border-slate-100">
-                <span class="text-slate-500">Key Focus Areas</span>
-                <span class="font-semibold text-slate-800">Education, Protection, GBV, Skills</span>
+                <span class="text-slate-500">Core Curriculum</span>
+                <span class="font-semibold text-slate-800">6 Integrated Development Pillars</span>
               </div>
               <div class="flex justify-between py-1.5 border-b border-slate-100">
                 <span class="text-slate-500">Executive Director</span>
                 <span class="font-semibold text-slate-800">Ershad Hossain</span>
               </div>
               <div class="flex justify-between py-1.5">
-                <span class="text-slate-500">Contact Telephone</span>
+                <span class="text-slate-500">Direct Telephone</span>
                 <span class="font-semibold text-slate-800">+880 1879-479062</span>
               </div>
             </div>
 
-            <!-- Mini Highlight Box -->
-            <div class="bg-amber-50 border border-amber-200 rounded-lg p-3 text-xs text-amber-900 mb-6 flex items-start gap-2">
-              <i class="fa-solid fa-shield-halved text-amber-600 mt-0.5"></i>
-              <span><strong>Humanitarian Safeguarding Guarantee:</strong> Fully coordinated with camp authorities, strict PSEA compliance, and confidential survivor-centred referral pathways.</span>
+            <!-- Safeguarding Callout -->
+            <div class="bg-amber-50 border border-amber-200 rounded-xl p-3 text-xs text-amber-950 mb-5 flex items-start gap-2.5">
+              <i class="fa-solid fa-shield-halved text-amber-600 text-sm mt-0.5"></i>
+              <span><strong>Protection Standard:</strong> Full coordination with camp authorities, strict PSEA safeguarding, and confidential survivor-centred referral pathways.</span>
             </div>
 
-            <div class="space-y-2">
-              <a href="#proposal" class="w-full inline-flex items-center justify-center py-2.5 px-4 rounded-xl text-xs sm:text-sm font-semibold bg-brand-700 hover:bg-brand-800 text-white transition-colors shadow">
-                <i class="fa-solid fa-eye mr-2"></i> View Project Proposal Summary
+            <div class="grid grid-cols-1 sm:grid-cols-2 gap-2">
+              <a href="#project" class="w-full inline-flex items-center justify-center py-2.5 px-3 rounded-xl text-xs font-semibold bg-brand-700 hover:bg-brand-800 text-white transition-colors shadow-xs">
+                <i class="fa-solid fa-compass mr-1.5"></i> View Framework
               </a>
-              <a href="RDO-Learning-Centres-Proposal.pdf" download class="w-full inline-flex items-center justify-center py-2.5 px-4 rounded-xl text-xs sm:text-sm font-semibold bg-slate-100 hover:bg-slate-200 text-slate-700 transition-colors border border-slate-300">
-                <i class="fa-solid fa-file-arrow-down mr-2 text-brand-600"></i> Download Full Document (PDF)
+              <a href="#contact" class="w-full inline-flex items-center justify-center py-2.5 px-3 rounded-xl text-xs font-semibold bg-slate-100 hover:bg-slate-200 text-slate-800 transition-colors border border-slate-200">
+                <i class="fa-solid fa-envelope mr-1.5 text-brand-600"></i> Contact Us
               </a>
             </div>
 
@@ -352,48 +327,48 @@
     </div>
   </section>
 
-  <!-- ORGANIZATIONAL PILLARS STRIP -->
+  <!-- QUICK CAPABILITIES STRIP -->
   <section class="bg-white border-b border-slate-200 py-6">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
       <div class="grid grid-cols-2 md:grid-cols-4 gap-4 text-center">
         
         <div class="flex items-center justify-center gap-3 p-2">
-          <div class="w-10 h-10 rounded-full bg-brand-50 flex items-center justify-center text-brand-600">
+          <div class="w-10 h-10 rounded-full bg-brand-50 flex items-center justify-center text-brand-600 shrink-0">
             <i class="fa-solid fa-book-open"></i>
           </div>
           <div class="text-left">
-            <div class="text-xs uppercase font-bold text-slate-400">Pillar 1</div>
-            <div class="text-sm font-bold text-slate-800">Education & Literacy</div>
+            <div class="text-[10px] uppercase font-bold text-slate-400">Pillar 1</div>
+            <div class="text-xs sm:text-sm font-bold text-slate-800">Foundational Learning</div>
           </div>
         </div>
 
         <div class="flex items-center justify-center gap-3 p-2">
-          <div class="w-10 h-10 rounded-full bg-leaf-50 flex items-center justify-center text-leaf-600">
+          <div class="w-10 h-10 rounded-full bg-leaf-50 flex items-center justify-center text-leaf-600 shrink-0">
             <i class="fa-solid fa-laptop-code"></i>
           </div>
           <div class="text-left">
-            <div class="text-xs uppercase font-bold text-slate-400">Pillar 2</div>
-            <div class="text-sm font-bold text-slate-800">Digital Literacy</div>
+            <div class="text-[10px] uppercase font-bold text-slate-400">Pillar 2</div>
+            <div class="text-xs sm:text-sm font-bold text-slate-800">Digital Literacy</div>
           </div>
         </div>
 
         <div class="flex items-center justify-center gap-3 p-2">
-          <div class="w-10 h-10 rounded-full bg-amber-50 flex items-center justify-center text-amber-600">
+          <div class="w-10 h-10 rounded-full bg-amber-50 flex items-center justify-center text-amber-600 shrink-0">
             <i class="fa-solid fa-user-shield"></i>
           </div>
           <div class="text-left">
-            <div class="text-xs uppercase font-bold text-slate-400">Pillar 3</div>
-            <div class="text-sm font-bold text-slate-800">Child Protection</div>
+            <div class="text-[10px] uppercase font-bold text-slate-400">Pillar 3</div>
+            <div class="text-xs sm:text-sm font-bold text-slate-800">Child Protection</div>
           </div>
         </div>
 
         <div class="flex items-center justify-center gap-3 p-2">
-          <div class="w-10 h-10 rounded-full bg-rose-50 flex items-center justify-center text-rose-600">
+          <div class="w-10 h-10 rounded-full bg-rose-50 flex items-center justify-center text-rose-600 shrink-0">
             <i class="fa-solid fa-venus-mars"></i>
           </div>
           <div class="text-left">
-            <div class="text-xs uppercase font-bold text-slate-400">Pillar 4</div>
-            <div class="text-sm font-bold text-slate-800">GBV Prevention</div>
+            <div class="text-[10px] uppercase font-bold text-slate-400">Pillar 4</div>
+            <div class="text-xs sm:text-sm font-bold text-slate-800">GBV Prevention</div>
           </div>
         </div>
 
@@ -405,80 +380,79 @@
   <section id="about" class="py-16 md:py-24 bg-slate-50">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
       
-      <!-- Section Header -->
-      <div class="text-center max-w-3xl mx-auto mb-16">
+      <div class="text-center max-w-3xl mx-auto mb-14">
         <span class="text-xs font-bold uppercase tracking-wider text-brand-600 bg-brand-50 px-3 py-1 rounded-full border border-brand-200">
           Who We Are
         </span>
-        <h2 class="text-3xl md:text-4xl font-extrabold text-slate-900 font-heading mt-3 mb-4">
+        <h2 class="text-2xl sm:text-3xl md:text-4xl font-extrabold text-slate-900 font-heading mt-3 mb-4">
           Rohingya Development Organisation
         </h2>
-        <p class="text-slate-600 text-sm md:text-base leading-relaxed">
-          RDO is a community-based, non-profit organisation founded in Cox's Bazar, Bangladesh. We work with humility, transparency, and deep respect for our community to restore hope and dignity to displaced children and youth.
+        <p class="text-slate-600 text-xs sm:text-sm md:text-base leading-relaxed">
+          RDO is a community-based, non-profit organisation founded in Cox's Bazar, Bangladesh. We work with humility, transparency, and deep respect for our community to restore learning, safety, and hope for displaced children and youth.
         </p>
       </div>
 
       <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 items-center">
         
-        <!-- Left: Vision & Mission Cards -->
-        <div class="lg:col-span-7 space-y-6">
+        <!-- Left: Vision, Mission & Operating Principles -->
+        <div class="lg:col-span-7 space-y-5">
           
-          <div class="bg-white p-6 md:p-8 rounded-2xl shadow-sm border border-slate-200 hover:border-brand-300 transition-all">
+          <div class="bg-white p-6 sm:p-7 rounded-2xl shadow-xs border border-slate-200">
             <div class="flex items-start space-x-4">
-              <div class="w-12 h-12 rounded-xl bg-brand-50 text-brand-700 flex items-center justify-center shrink-0 text-xl font-bold">
+              <div class="w-11 h-11 rounded-xl bg-brand-50 text-brand-700 flex items-center justify-center shrink-0 text-xl font-bold">
                 <i class="fa-regular fa-compass"></i>
               </div>
               <div>
-                <h3 class="text-lg font-bold text-slate-900 font-heading mb-2">Our Vision</h3>
-                <p class="text-slate-600 text-sm md:text-base leading-relaxed">
-                  To build a <strong>safer, educated, skilled and hopeful future</strong> for Rohingya children and young people, equipping them to overcome displacement and contribute positively to society.
+                <h3 class="text-base sm:text-lg font-bold text-slate-900 font-heading mb-1.5">Our Vision</h3>
+                <p class="text-slate-600 text-xs sm:text-sm leading-relaxed">
+                  To build a <strong>safer, educated, skilled, and hopeful future</strong> for Rohingya children and young people, enabling them to realize their potential and contribute constructively to society.
                 </p>
               </div>
             </div>
           </div>
 
-          <div class="bg-white p-6 md:p-8 rounded-2xl shadow-sm border border-slate-200 hover:border-leaf-300 transition-all">
+          <div class="bg-white p-6 sm:p-7 rounded-2xl shadow-xs border border-slate-200">
             <div class="flex items-start space-x-4">
-              <div class="w-12 h-12 rounded-xl bg-leaf-50 text-leaf-700 flex items-center justify-center shrink-0 text-xl font-bold">
+              <div class="w-11 h-11 rounded-xl bg-leaf-50 text-leaf-700 flex items-center justify-center shrink-0 text-xl font-bold">
                 <i class="fa-solid fa-bullseye"></i>
               </div>
               <div>
-                <h3 class="text-lg font-bold text-slate-900 font-heading mb-2">Our Mission</h3>
-                <p class="text-slate-600 text-sm md:text-base leading-relaxed">
-                  To support vulnerable Rohingya children and youth through <strong>educational support, learning opportunities, life skills, child-protection awareness</strong>, and developmental activities that nurture their innate human potential.
+                <h3 class="text-base sm:text-lg font-bold text-slate-900 font-heading mb-1.5">Our Mission</h3>
+                <p class="text-slate-600 text-xs sm:text-sm leading-relaxed">
+                  To support vulnerable Rohingya children and youth through <strong>supplementary education, digital literacy, life skills, child protection awareness</strong>, and positive youth activities that foster resilience and dignity.
                 </p>
               </div>
             </div>
           </div>
 
-          <!-- Operating Principles Grid -->
-          <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 pt-2">
+          <!-- 4 Operating Principles Grid -->
+          <div class="grid grid-cols-1 sm:grid-cols-2 gap-3.5 pt-1">
             <div class="bg-white p-4 rounded-xl border border-slate-200 flex items-center space-x-3">
               <i class="fa-solid fa-handshake-angle text-brand-600 text-lg"></i>
               <div>
-                <h4 class="text-xs font-bold uppercase text-slate-800">Complementary Approach</h4>
-                <p class="text-xs text-slate-500">Complements, does not duplicate, existing formal aid.</p>
+                <h4 class="text-xs font-bold uppercase text-slate-800">Complementary Role</h4>
+                <p class="text-[11px] text-slate-500">Supports and complements camp education facilities.</p>
               </div>
             </div>
             <div class="bg-white p-4 rounded-xl border border-slate-200 flex items-center space-x-3">
               <i class="fa-solid fa-shield-cat text-leaf-600 text-lg"></i>
               <div>
                 <h4 class="text-xs font-bold uppercase text-slate-800">Strict Safeguarding</h4>
-                <p class="text-xs text-slate-500">100% trained staff in PSEA and child protection.</p>
+                <p class="text-[11px] text-slate-500">100% personnel certified in PSEA and child protection.</p>
               </div>
             </div>
             <div class="bg-white p-4 rounded-xl border border-slate-200 flex items-center space-x-3">
               <i class="fa-solid fa-venus text-rose-500 text-lg"></i>
               <div>
-                <h4 class="text-xs font-bold uppercase text-slate-800">Gender Equality Focus</h4>
-                <p class="text-xs text-slate-500">At least 50% target for girls in all cohorts.</p>
+                <h4 class="text-xs font-bold uppercase text-slate-800">Gender Parity</h4>
+                <p class="text-[11px] text-slate-500">&ge;50% targeted participation for adolescent girls.</p>
               </div>
             </div>
             <div class="bg-white p-4 rounded-xl border border-slate-200 flex items-center space-x-3">
               <i class="fa-solid fa-scale-balanced text-amber-500 text-lg"></i>
               <div>
-                <h4 class="text-xs font-bold uppercase text-slate-800">Full Accountability</h4>
-                <p class="text-xs text-slate-500">Transparent budget, quarterly reviews & MEAL.</p>
+                <h4 class="text-xs font-bold uppercase text-slate-800">Accountability</h4>
+                <p class="text-[11px] text-slate-500">Continuous MEAL monitoring and community feedback.</p>
               </div>
             </div>
           </div>
@@ -488,31 +462,31 @@
         <!-- Right: Message from the Founder -->
         <div class="lg:col-span-5">
           <div class="bg-gradient-to-br from-brand-900 to-brand-950 text-white rounded-2xl p-6 sm:p-8 shadow-xl relative overflow-hidden">
-            <div class="absolute -right-8 -bottom-8 w-40 h-40 bg-leaf-500/10 rounded-full blur-xl"></div>
+            <div class="absolute -right-8 -bottom-8 w-36 h-36 bg-leaf-500/10 rounded-full blur-xl"></div>
             
-            <div class="flex items-center space-x-4 mb-6">
-              <div class="w-16 h-16 rounded-full bg-white/10 flex items-center justify-center border-2 border-leaf-400 text-2xl font-bold text-white shadow-inner">
+            <div class="flex items-center space-x-3.5 mb-5">
+              <div class="w-14 h-14 rounded-full bg-white/10 flex items-center justify-center border-2 border-leaf-400 text-xl font-bold text-white shadow-inner shrink-0">
                 EH
               </div>
               <div>
-                <h3 class="text-lg font-bold font-heading text-white">Ershad Hossain</h3>
+                <h3 class="text-base sm:text-lg font-bold font-heading text-white">Ershad Hossain</h3>
                 <p class="text-xs text-leaf-300 font-medium">Founder & Executive Director</p>
-                <p class="text-xs text-slate-400">Rohingya Development Organisation (RDO)</p>
+                <p class="text-[11px] text-slate-400">Rohingya Development Organisation</p>
               </div>
             </div>
 
-            <p class="text-xs sm:text-sm text-slate-200 leading-relaxed italic mb-6">
-              “Rohingya children and young people continue to live in prolonged displacement, with limited space, interrupted learning, and pressing protection risks. Adolescent girls face heightened vulnerability to GBV and early marriage, while young boys face violence and severe pressure.
+            <p class="text-xs sm:text-sm text-slate-200 leading-relaxed italic mb-5">
+              “Rohingya children and young people continue to live in prolonged displacement, with limited space, interrupted learning, and serious protection risks. Adolescent girls may face early marriage and exploitation, while young boys face violence and severe pressure.
               <br><br>
-              With humanitarian budgets under global pressure, small, community-led, targeted, and well-coordinated interventions are more vital than ever. We seek respectful partnership with humanitarian agencies like NRC, UNHCR, and global friends to ensure no child's future is abandoned.”
+              Targeted, community-led, and well-coordinated interventions are essential. We work in close coordination with humanitarian actors and camp authorities to ensure our youth have spaces to learn, grow, and hope.”
             </p>
 
             <div class="pt-4 border-t border-white/10 flex flex-col sm:flex-row justify-between items-start sm:items-center gap-3 text-xs">
               <div>
-                <div class="text-slate-400">Direct Contact:</div>
+                <div class="text-slate-400 text-[11px]">Primary Contact:</div>
                 <div class="font-semibold text-white">+880 1879-479062</div>
               </div>
-              <a href="mailto:irshaadhussainarsd@gmail.com" class="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-lg bg-white/15 hover:bg-white/25 text-white transition-colors">
+              <a href="mailto:irshaadhussainarsd@gmail.com" class="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-lg bg-white/15 hover:bg-white/25 text-white transition-colors text-xs">
                 <i class="fa-solid fa-envelope"></i> Message Ershad
               </a>
             </div>
@@ -529,29 +503,29 @@
   <section id="project" class="py-16 md:py-24 bg-white border-y border-slate-200">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
       
-      <div class="text-center max-w-3xl mx-auto mb-16">
+      <div class="text-center max-w-3xl mx-auto mb-14">
         <span class="text-xs font-bold uppercase tracking-wider text-leaf-600 bg-leaf-50 px-3 py-1 rounded-full border border-leaf-200">
           Flagship Initiative
         </span>
-        <h2 class="text-3xl md:text-4xl font-extrabold text-slate-900 font-heading mt-3 mb-4">
+        <h2 class="text-2xl sm:text-3xl md:text-4xl font-extrabold text-slate-900 font-heading mt-3 mb-4">
           RDO Learning Centres for Children & Youth
         </h2>
-        <p class="text-slate-600 text-sm md:text-base leading-relaxed">
-          A 12-month community-based project establishing 4 safe learning spaces serving 200 Rohingya children and adolescent youth in Camps 4, 5, 17, and 18 in Cox's Bazar, Bangladesh.
+        <p class="text-slate-600 text-xs sm:text-sm md:text-base leading-relaxed">
+          Four safe, inclusive community learning centres established in Camps 4, 5, 17, and 18 in Cox's Bazar, Bangladesh, serving 200 Rohingya children and adolescent youth.
         </p>
       </div>
 
-      <!-- Overview Cards Grid -->
+      <!-- 3 Highlight Cards -->
       <div class="grid grid-cols-1 md:grid-cols-3 gap-6 mb-12">
         
         <div class="bg-slate-50 p-6 rounded-2xl border border-slate-200">
           <div class="w-10 h-10 rounded-xl bg-brand-100 text-brand-700 flex items-center justify-center font-bold mb-4">
             <i class="fa-solid fa-users"></i>
           </div>
-          <h3 class="text-lg font-bold text-slate-900 font-heading mb-1">200 Direct Learners</h3>
-          <p class="text-xs text-brand-600 font-semibold mb-3">50 Students per Camp Centre</p>
+          <h3 class="text-base sm:text-lg font-bold text-slate-900 font-heading mb-1">200 Direct Learners</h3>
+          <p class="text-xs text-brand-600 font-semibold mb-2">50 Students per Camp Centre</p>
           <p class="text-xs text-slate-600 leading-relaxed">
-            Organised in two competency groups of about 25 students each per centre. Alternating morning and afternoon shifts allow optimal use of space and resources at minimal cost.
+            Learners are organized into competency-based groups of about 25 students. Alternating morning and afternoon shifts allow close attention from facilitators and high quality learning.
           </p>
         </div>
 
@@ -559,57 +533,57 @@
           <div class="w-10 h-10 rounded-xl bg-leaf-100 text-leaf-700 flex items-center justify-center font-bold mb-4">
             <i class="fa-solid fa-clock"></i>
           </div>
-          <h3 class="text-lg font-bold text-slate-900 font-heading mb-1">08:30 – 15:00 Schedule</h3>
-          <p class="text-xs text-leaf-600 font-semibold mb-3">Structured Daily Programming</p>
+          <h3 class="text-base sm:text-lg font-bold text-slate-900 font-heading mb-1">Structured Schedule</h3>
+          <p class="text-xs text-leaf-600 font-semibold mb-2">08:30 – 15:00 Daily Operations</p>
           <p class="text-xs text-slate-600 leading-relaxed">
-            Covers literacy, numeracy, English communication, study support, basic computer operations, life skills, GBV prevention sessions, team sports, and healing arts.
+            Balanced timetable incorporating foundational literacy and numeracy, spoken English, digital workstations, life skills, GBV prevention sessions, team sports, and healing arts.
           </p>
         </div>
 
         <div class="bg-slate-50 p-6 rounded-2xl border border-slate-200">
-          <div class="w-10 h-10 rounded-xl bg-sun-100 text-sun-600 flex items-center justify-center font-bold mb-4">
-            <i class="fa-solid fa-hand-holding-dollar"></i>
+          <div class="w-10 h-10 rounded-xl bg-emerald-100 text-emerald-700 flex items-center justify-center font-bold mb-4">
+            <i class="fa-solid fa-handshake"></i>
           </div>
-          <h3 class="text-lg font-bold text-slate-900 font-heading mb-1">$250 Per Student / Year</h3>
-          <p class="text-xs text-sun-600 font-semibold mb-3">Total Budget: USD $50,000</p>
+          <h3 class="text-base sm:text-lg font-bold text-slate-900 font-heading mb-1">Community-Led Model</h3>
+          <p class="text-xs text-emerald-600 font-semibold mb-2">Grassroots Sustainability</p>
           <p class="text-xs text-slate-600 leading-relaxed">
-            High-impact, low-overhead model where 38% goes straight to education facilitators and teachers. Fully audited with MEAL compliance and transparent tracking.
+            Operated by trained community educators with caregiver participation, youth leadership committees, and coordinated referrals to established humanitarian service pathways.
           </p>
         </div>
 
       </div>
 
-      <!-- CENTRE OPERATIONAL MODEL WORKFLOW -->
-      <div class="bg-gradient-to-r from-brand-900 via-brand-800 to-brand-950 text-white rounded-2xl p-6 sm:p-10 shadow-lg">
-        <h3 class="text-xl font-bold font-heading mb-2 text-white">How Each Learning Centre Operates</h3>
-        <p class="text-xs sm:text-sm text-slate-300 mb-8 max-w-2xl">
-          Designed for maximum safety, cultural alignment, child protection, and community trust.
+      <!-- Operational Workflow -->
+      <div class="bg-gradient-to-r from-brand-900 via-brand-800 to-brand-950 text-white rounded-2xl p-6 sm:p-9 shadow-lg">
+        <h3 class="text-lg sm:text-xl font-bold font-heading mb-2 text-white">How Each Learning Centre Operates</h3>
+        <p class="text-xs sm:text-sm text-slate-300 mb-6 max-w-2xl">
+          Designed for maximum child safety, cultural alignment, community ownership, and humanitarian standards.
         </p>
 
-        <div class="grid grid-cols-1 md:grid-cols-4 gap-6 text-xs sm:text-sm">
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 text-xs sm:text-sm">
           
           <div class="border-l-2 border-sun-400 pl-4 space-y-1">
-            <span class="text-sun-400 font-bold text-xs uppercase tracking-wide">Step 1</span>
-            <h4 class="font-bold text-white text-base">Community Mapping</h4>
-            <p class="text-slate-300">Coordination with camp authorities, RRRC, UNHCR, and NRC before any activity. Verified gap mapping.</p>
+            <span class="text-sun-400 font-bold text-[10px] uppercase tracking-wide">Phase 1</span>
+            <h4 class="font-bold text-white text-sm sm:text-base">Service Mapping</h4>
+            <p class="text-slate-300 text-xs">Full coordination with camp authorities and humanitarian actors before starting to avoid duplication.</p>
           </div>
 
           <div class="border-l-2 border-leaf-400 pl-4 space-y-1">
-            <span class="text-leaf-400 font-bold text-xs uppercase tracking-wide">Step 2</span>
-            <h4 class="font-bold text-white text-base">Safe Spaces</h4>
-            <p class="text-slate-300">Approved community structures equipped with desks, whiteboards, digital kits, and clean WASH facilities.</p>
+            <span class="text-leaf-400 font-bold text-[10px] uppercase tracking-wide">Phase 2</span>
+            <h4 class="font-bold text-white text-sm sm:text-base">Safe Physical Space</h4>
+            <p class="text-slate-300 text-xs">Approved community spaces equipped with study desks, learning materials, and clean facilities.</p>
           </div>
 
           <div class="border-l-2 border-sky-400 pl-4 space-y-1">
-            <span class="text-sky-400 font-bold text-xs uppercase tracking-wide">Step 3</span>
-            <h4 class="font-bold text-white text-base">Trained Facilitators</h4>
-            <p class="text-slate-300">2 facilitators per centre (at least 1 woman), screened under child safeguarding and PSEA protocols.</p>
+            <span class="text-sky-400 font-bold text-[10px] uppercase tracking-wide">Phase 3</span>
+            <h4 class="font-bold text-white text-sm sm:text-base">Trained Educators</h4>
+            <p class="text-slate-300 text-xs">Two facilitators per centre (at least one female) trained in child safeguarding and PSEA standards.</p>
           </div>
 
           <div class="border-l-2 border-indigo-400 pl-4 space-y-1">
-            <span class="text-indigo-400 font-bold text-xs uppercase tracking-wide">Step 4</span>
-            <h4 class="font-bold text-white text-base">Survivor Referrals</h4>
-            <p class="text-slate-300">Confidential complaint channels with mapped referral pathways to certified clinical and protection actors.</p>
+            <span class="text-indigo-400 font-bold text-[10px] uppercase tracking-wide">Phase 4</span>
+            <h4 class="font-bold text-white text-sm sm:text-base">Survivor Referrals</h4>
+            <p class="text-slate-300 text-xs">Confidential complaints channel with mapped referral pathways to qualified health and protection actors.</p>
           </div>
 
         </div>
@@ -618,93 +592,93 @@
     </div>
   </section>
 
-  <!-- 6 CORE PROJECT COMPONENTS / PILLARS -->
-  <section id="components" class="py-16 md:py-24 bg-slate-50">
+  <!-- THE SIX CORE PILLARS -->
+  <section id="pillars" class="py-16 md:py-24 bg-slate-50">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
       
-      <div class="text-center max-w-3xl mx-auto mb-16">
+      <div class="text-center max-w-3xl mx-auto mb-14">
         <span class="text-xs font-bold uppercase tracking-wider text-brand-600 bg-brand-50 px-3 py-1 rounded-full border border-brand-200">
-          Holistic Development
+          Holistic Curriculum
         </span>
-        <h2 class="text-3xl md:text-4xl font-extrabold text-slate-900 font-heading mt-3 mb-4">
-          The Six Core Pillars of Learning
+        <h2 class="text-2xl sm:text-3xl md:text-4xl font-extrabold text-slate-900 font-heading mt-3 mb-4">
+          The Six Core Pillars of Development
         </h2>
-        <p class="text-slate-600 text-sm md:text-base leading-relaxed">
-          Every child receives balanced cognitive, digital, emotional, and social development delivered in a safe, culturally sensitive environment.
+        <p class="text-slate-600 text-xs sm:text-sm md:text-base leading-relaxed">
+          Every enrolled student receives a balanced mix of foundational learning, technology skills, leadership, and emotional well-being.
         </p>
       </div>
 
       <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
         
         <!-- Pillar 1 -->
-        <div class="bg-white rounded-2xl p-6 shadow-sm border border-slate-200 hover:shadow-md transition-shadow group">
+        <div class="bg-white rounded-2xl p-6 shadow-xs border border-slate-200 hover:shadow-md transition-shadow group">
           <div class="w-12 h-12 rounded-xl bg-blue-50 text-brand-600 flex items-center justify-center text-xl font-bold mb-4 group-hover:bg-brand-600 group-hover:text-white transition-colors">
             <i class="fa-solid fa-book-open-reader"></i>
           </div>
-          <h3 class="text-lg font-bold text-slate-900 font-heading mb-2">1. Foundational Learning</h3>
-          <p class="text-xs text-slate-500 font-medium mb-3">Literacy, Numeracy & English Clubs</p>
+          <h3 class="text-base sm:text-lg font-bold text-slate-900 font-heading mb-1.5">1. Foundational Learning</h3>
+          <p class="text-xs text-brand-600 font-medium mb-3">Literacy, Numeracy & English Clubs</p>
           <ul class="text-xs text-slate-600 space-y-2">
             <li class="flex items-start gap-2">
               <i class="fa-solid fa-check text-leaf-500 mt-0.5"></i>
-              <span>Basic and functional literacy and numeracy support</span>
+              <span>Basic literacy and numeracy reinforcement</span>
             </li>
             <li class="flex items-start gap-2">
               <i class="fa-solid fa-check text-leaf-500 mt-0.5"></i>
-              <span>Spoken English and communication skills</span>
+              <span>Spoken English communication and study habits</span>
             </li>
             <li class="flex items-start gap-2">
               <i class="fa-solid fa-check text-leaf-500 mt-0.5"></i>
-              <span>Reading clubs, homework assistance and study habits</span>
+              <span>Reading clubs, peer homework support, and learning games</span>
             </li>
             <li class="flex items-start gap-2">
               <i class="fa-solid fa-check text-leaf-500 mt-0.5"></i>
-              <span>Interactive learning games and regular progress tests</span>
+              <span>Periodic competency assessments to track individual growth</span>
             </li>
           </ul>
         </div>
 
         <!-- Pillar 2 -->
-        <div class="bg-white rounded-2xl p-6 shadow-sm border border-slate-200 hover:shadow-md transition-shadow group">
+        <div class="bg-white rounded-2xl p-6 shadow-xs border border-slate-200 hover:shadow-md transition-shadow group">
           <div class="w-12 h-12 rounded-xl bg-leaf-50 text-leaf-600 flex items-center justify-center text-xl font-bold mb-4 group-hover:bg-leaf-600 group-hover:text-white transition-colors">
             <i class="fa-solid fa-computer"></i>
           </div>
-          <h3 class="text-lg font-bold text-slate-900 font-heading mb-2">2. Digital Literacy</h3>
-          <p class="text-xs text-slate-500 font-medium mb-3">Basic Computing & Cyber Safety</p>
+          <h3 class="text-base sm:text-lg font-bold text-slate-900 font-heading mb-1.5">2. Digital Literacy</h3>
+          <p class="text-xs text-leaf-600 font-medium mb-3">Computer Fundamentals & Online Safety</p>
           <ul class="text-xs text-slate-600 space-y-2">
             <li class="flex items-start gap-2">
               <i class="fa-solid fa-check text-leaf-500 mt-0.5"></i>
-              <span>Computer fundamentals, keyboard typing & mouse control</span>
+              <span>Computer fundamentals, keyboard typing, and file management</span>
             </li>
             <li class="flex items-start gap-2">
               <i class="fa-solid fa-check text-leaf-500 mt-0.5"></i>
-              <span>Basic file management and document creation</span>
+              <span>Basic document drafting and digital exploration</span>
             </li>
             <li class="flex items-start gap-2">
               <i class="fa-solid fa-check text-leaf-500 mt-0.5"></i>
-              <span>Online safety, digital citizenship & scam awareness</span>
+              <span>Online safety, scam protection, and digital hygiene</span>
             </li>
             <li class="flex items-start gap-2">
               <i class="fa-solid fa-check text-leaf-500 mt-0.5"></i>
-              <span>Supervised responsible tech access for displaced youth</span>
+              <span>Supervised responsible technology access for displaced youth</span>
             </li>
           </ul>
         </div>
 
         <!-- Pillar 3 -->
-        <div class="bg-white rounded-2xl p-6 shadow-sm border border-slate-200 hover:shadow-md transition-shadow group">
+        <div class="bg-white rounded-2xl p-6 shadow-xs border border-slate-200 hover:shadow-md transition-shadow group">
           <div class="w-12 h-12 rounded-xl bg-purple-50 text-purple-600 flex items-center justify-center text-xl font-bold mb-4 group-hover:bg-purple-600 group-hover:text-white transition-colors">
             <i class="fa-solid fa-compass-drafting"></i>
           </div>
-          <h3 class="text-lg font-bold text-slate-900 font-heading mb-2">3. Life Skills & Leadership</h3>
-          <p class="text-xs text-slate-500 font-medium mb-3">Empowering Adolescent Agency</p>
+          <h3 class="text-base sm:text-lg font-bold text-slate-900 font-heading mb-1.5">3. Life Skills & Leadership</h3>
+          <p class="text-xs text-purple-600 font-medium mb-3">Adolescent Agency & Problem Solving</p>
           <ul class="text-xs text-slate-600 space-y-2">
             <li class="flex items-start gap-2">
               <i class="fa-solid fa-check text-leaf-500 mt-0.5"></i>
-              <span>Interpersonal communication, active listening & empathy</span>
+              <span>Interpersonal communication, active listening, and teamwork</span>
             </li>
             <li class="flex items-start gap-2">
               <i class="fa-solid fa-check text-leaf-500 mt-0.5"></i>
-              <span>Team problem solving and collaborative decision making</span>
+              <span>Constructive problem solving and decision-making skills</span>
             </li>
             <li class="flex items-start gap-2">
               <i class="fa-solid fa-check text-leaf-500 mt-0.5"></i>
@@ -712,76 +686,76 @@
             </li>
             <li class="flex items-start gap-2">
               <i class="fa-solid fa-check text-leaf-500 mt-0.5"></i>
-              <span>Basic financial literacy, budgeting & career awareness</span>
+              <span>Basic household budgeting and future career awareness</span>
             </li>
           </ul>
         </div>
 
         <!-- Pillar 4 -->
-        <div class="bg-white rounded-2xl p-6 shadow-sm border border-slate-200 hover:shadow-md transition-shadow group">
+        <div class="bg-white rounded-2xl p-6 shadow-xs border border-slate-200 hover:shadow-md transition-shadow group">
           <div class="w-12 h-12 rounded-xl bg-amber-50 text-amber-600 flex items-center justify-center text-xl font-bold mb-4 group-hover:bg-amber-600 group-hover:text-white transition-colors">
             <i class="fa-solid fa-shield-heart"></i>
           </div>
-          <h3 class="text-lg font-bold text-slate-900 font-heading mb-2">4. Child Protection & Rights</h3>
-          <p class="text-xs text-slate-500 font-medium mb-3">Safeguarding & Help-Seeking</p>
+          <h3 class="text-base sm:text-lg font-bold text-slate-900 font-heading mb-1.5">4. Child Protection & Rights</h3>
+          <p class="text-xs text-amber-600 font-medium mb-3">Safeguarding & Safe Help-Seeking</p>
           <ul class="text-xs text-slate-600 space-y-2">
             <li class="flex items-start gap-2">
               <i class="fa-solid fa-check text-leaf-500 mt-0.5"></i>
-              <span>Child rights education tailored to refugee context</span>
+              <span>Awareness of children's rights adapted to displacement</span>
             </li>
             <li class="flex items-start gap-2">
               <i class="fa-solid fa-check text-leaf-500 mt-0.5"></i>
-              <span>Safe disclosure training and confident help-seeking paths</span>
+              <span>Safe disclosure pathways and seeking help when in danger</span>
             </li>
             <li class="flex items-start gap-2">
               <i class="fa-solid fa-check text-leaf-500 mt-0.5"></i>
-              <span>Prevention of child marriage, child labor & exploitation</span>
+              <span>Prevention of child marriage, exploitation, and child labor</span>
             </li>
             <li class="flex items-start gap-2">
               <i class="fa-solid fa-check text-leaf-500 mt-0.5"></i>
-              <span>Confidential, child-friendly complaints and feedback box</span>
+              <span>Child-friendly complaints and feedback channels</span>
             </li>
           </ul>
         </div>
 
         <!-- Pillar 5 -->
-        <div class="bg-white rounded-2xl p-6 shadow-sm border border-slate-200 hover:shadow-md transition-shadow group">
+        <div class="bg-white rounded-2xl p-6 shadow-xs border border-slate-200 hover:shadow-md transition-shadow group">
           <div class="w-12 h-12 rounded-xl bg-rose-50 text-rose-600 flex items-center justify-center text-xl font-bold mb-4 group-hover:bg-rose-600 group-hover:text-white transition-colors">
             <i class="fa-solid fa-hands-holding-child"></i>
           </div>
-          <h3 class="text-lg font-bold text-slate-900 font-heading mb-2">5. Gender Equality & GBV</h3>
-          <p class="text-xs text-slate-500 font-medium mb-3">Mutual Respect & Safe Boundaries</p>
+          <h3 class="text-base sm:text-lg font-bold text-slate-900 font-heading mb-1.5">5. Gender Equality & GBV</h3>
+          <p class="text-xs text-rose-600 font-medium mb-3">Mutual Respect & Safe Boundaries</p>
           <ul class="text-xs text-slate-600 space-y-2">
             <li class="flex items-start gap-2">
               <i class="fa-solid fa-check text-leaf-500 mt-0.5"></i>
-              <span>Body safety, personal boundaries and mutual respect</span>
+              <span>Dignity, body safety, and mutual respect education</span>
             </li>
             <li class="flex items-start gap-2">
               <i class="fa-solid fa-check text-leaf-500 mt-0.5"></i>
-              <span>Healthy relationships and peaceful conflict resolution</span>
+              <span>Peaceful conflict resolution and healthy interpersonal values</span>
             </li>
             <li class="flex items-start gap-2">
               <i class="fa-solid fa-check text-leaf-500 mt-0.5"></i>
-              <span>Separate sessions for adolescent girls and boys</span>
+              <span>Separate sessions for adolescent girls and boys where appropriate</span>
             </li>
             <li class="flex items-start gap-2">
               <i class="fa-solid fa-check text-leaf-500 mt-0.5"></i>
-              <span>Caregiver and community leader engagement dialogues</span>
+              <span>Regular dialogue and consultation with parents and community elders</span>
             </li>
           </ul>
         </div>
 
         <!-- Pillar 6 -->
-        <div class="bg-white rounded-2xl p-6 shadow-sm border border-slate-200 hover:shadow-md transition-shadow group">
+        <div class="bg-white rounded-2xl p-6 shadow-xs border border-slate-200 hover:shadow-md transition-shadow group">
           <div class="w-12 h-12 rounded-xl bg-emerald-50 text-emerald-600 flex items-center justify-center text-xl font-bold mb-4 group-hover:bg-emerald-600 group-hover:text-white transition-colors">
             <i class="fa-solid fa-futbol"></i>
           </div>
-          <h3 class="text-lg font-bold text-slate-900 font-heading mb-2">6. Sports, Arts & Recreation</h3>
-          <p class="text-xs text-slate-500 font-medium mb-3">Psychosocial Healing & Play</p>
+          <h3 class="text-base sm:text-lg font-bold text-slate-900 font-heading mb-1.5">6. Sports, Arts & Recreation</h3>
+          <p class="text-xs text-emerald-600 font-medium mb-3">Psychosocial Play & Cultural Healing</p>
           <ul class="text-xs text-slate-600 space-y-2">
             <li class="flex items-start gap-2">
               <i class="fa-solid fa-check text-leaf-500 mt-0.5"></i>
-              <span>Organised football, cricket and physical fitness games</span>
+              <span>Organized football, cricket, and collaborative playground games</span>
             </li>
             <li class="flex items-start gap-2">
               <i class="fa-solid fa-check text-leaf-500 mt-0.5"></i>
@@ -789,11 +763,11 @@
             </li>
             <li class="flex items-start gap-2">
               <i class="fa-solid fa-check text-leaf-500 mt-0.5"></i>
-              <span>Rohingya folklore, poetry and cultural expression</span>
+              <span>Rohingya folklore, poetry, and cultural expression</span>
             </li>
             <li class="flex items-start gap-2">
               <i class="fa-solid fa-check text-leaf-500 mt-0.5"></i>
-              <span>Trauma-informed psychosocial team-building exercises</span>
+              <span>Trauma-informed recreational activities that rebuild childhood joy</span>
             </li>
           </ul>
         </div>
@@ -803,343 +777,312 @@
     </div>
   </section>
 
-  <!-- TARGET CAMPS GEOGRAPHIC OVERVIEW -->
-  <section id="camps" class="py-16 md:py-24 bg-white border-t border-slate-200">
+  <!-- DAILY SCHEDULE & LEARNING METHODOLOGY -->
+  <section id="schedule" class="py-16 md:py-24 bg-white border-t border-slate-200">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
       
-      <div class="text-center max-w-3xl mx-auto mb-16">
+      <div class="text-center max-w-3xl mx-auto mb-14">
         <span class="text-xs font-bold uppercase tracking-wider text-brand-600 bg-brand-50 px-3 py-1 rounded-full border border-brand-200">
-          Target Locations
+          Daily Routine
         </span>
-        <h2 class="text-3xl md:text-4xl font-extrabold text-slate-900 font-heading mt-3 mb-4">
-          Four Centres in Cox's Bazar Camps
+        <h2 class="text-2xl sm:text-3xl md:text-4xl font-extrabold text-slate-900 font-heading mt-3 mb-4">
+          Centre Daily Schedule & Methodology
         </h2>
-        <p class="text-slate-600 text-sm md:text-base leading-relaxed">
-          Initial allocation of 50 students per camp, subject to on-the-ground needs assessments, site safety verification, and camp authority approvals.
+        <p class="text-slate-600 text-xs sm:text-sm md:text-base leading-relaxed">
+          Operating Monday through Saturday from 08:30 to 15:00, structured to deliver structured education without causing mental fatigue.
         </p>
       </div>
 
-      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 text-xs sm:text-sm">
         
-        <!-- Camp 4 -->
-        <div class="bg-slate-50 rounded-2xl p-6 border border-slate-200 hover:border-brand-500 transition-all shadow-xs hover:shadow-md">
-          <div class="flex justify-between items-start mb-4">
-            <span class="px-2.5 py-1 rounded-full text-xs font-bold bg-brand-100 text-brand-800">Camp 4</span>
-            <span class="text-xs font-semibold text-slate-400">Cox's Bazar</span>
+        <div class="bg-slate-50 border border-slate-200 rounded-xl p-4 hover:border-brand-300 transition-colors">
+          <div class="flex items-center justify-between mb-2">
+            <span class="font-bold text-brand-700 bg-brand-50 px-2.5 py-0.5 rounded border border-brand-200">08:30 – 10:00</span>
+            <span class="text-slate-400 text-xs font-medium">Shift 1 / 2</span>
           </div>
-          <div class="text-3xl font-extrabold text-slate-900 font-heading mb-1">50</div>
-          <div class="text-xs text-slate-500 mb-4">Direct Students Enrolled</div>
-          <div class="space-y-2 text-xs text-slate-600 border-t border-slate-200 pt-3">
-            <div class="flex justify-between">
-              <span>Target Girls:</span>
-              <span class="font-bold text-slate-800">&ge; 25 students</span>
-            </div>
-            <div class="flex justify-between">
-              <span>Facilitators:</span>
-              <span class="font-bold text-slate-800">2 (incl. 1 woman)</span>
-            </div>
-            <div class="flex justify-between">
-              <span>Sessions:</span>
-              <span class="font-bold text-slate-800">Morning & Afternoon</span>
-            </div>
-          </div>
+          <h3 class="font-bold text-slate-900 text-sm mb-1">Foundational Literacy & Numeracy</h3>
+          <p class="text-slate-600 text-xs">Structured math exercises, reading drills, comprehension, and vocabulary development.</p>
         </div>
 
-        <!-- Camp 5 -->
-        <div class="bg-slate-50 rounded-2xl p-6 border border-slate-200 hover:border-brand-500 transition-all shadow-xs hover:shadow-md">
-          <div class="flex justify-between items-start mb-4">
-            <span class="px-2.5 py-1 rounded-full text-xs font-bold bg-leaf-100 text-leaf-800">Camp 5</span>
-            <span class="text-xs font-semibold text-slate-400">Cox's Bazar</span>
+        <div class="bg-slate-50 border border-slate-200 rounded-xl p-4 hover:border-brand-300 transition-colors">
+          <div class="flex items-center justify-between mb-2">
+            <span class="font-bold text-leaf-700 bg-leaf-50 px-2.5 py-0.5 rounded border border-leaf-200">10:00 – 11:15</span>
+            <span class="text-slate-400 text-xs font-medium">Interactive</span>
           </div>
-          <div class="text-3xl font-extrabold text-slate-900 font-heading mb-1">50</div>
-          <div class="text-xs text-slate-500 mb-4">Direct Students Enrolled</div>
-          <div class="space-y-2 text-xs text-slate-600 border-t border-slate-200 pt-3">
-            <div class="flex justify-between">
-              <span>Target Girls:</span>
-              <span class="font-bold text-slate-800">&ge; 25 students</span>
-            </div>
-            <div class="flex justify-between">
-              <span>Facilitators:</span>
-              <span class="font-bold text-slate-800">2 (incl. 1 woman)</span>
-            </div>
-            <div class="flex justify-between">
-              <span>Sessions:</span>
-              <span class="font-bold text-slate-800">Morning & Afternoon</span>
-            </div>
-          </div>
+          <h3 class="font-bold text-slate-900 text-sm mb-1">English Communication & Reading Clubs</h3>
+          <p class="text-slate-600 text-xs">Conversational English, storytelling, peer reading groups, and pronunciation practice.</p>
         </div>
 
-        <!-- Camp 17 -->
-        <div class="bg-slate-50 rounded-2xl p-6 border border-slate-200 hover:border-brand-500 transition-all shadow-xs hover:shadow-md">
-          <div class="flex justify-between items-start mb-4">
-            <span class="px-2.5 py-1 rounded-full text-xs font-bold bg-amber-100 text-amber-800">Camp 17</span>
-            <span class="text-xs font-semibold text-slate-400">Cox's Bazar</span>
+        <div class="bg-slate-50 border border-slate-200 rounded-xl p-4 hover:border-brand-300 transition-colors">
+          <div class="flex items-center justify-between mb-2">
+            <span class="font-bold text-sky-700 bg-sky-50 px-2.5 py-0.5 rounded border border-sky-200">11:15 – 12:30</span>
+            <span class="text-slate-400 text-xs font-medium">Digital Lab</span>
           </div>
-          <div class="text-3xl font-extrabold text-slate-900 font-heading mb-1">50</div>
-          <div class="text-xs text-slate-500 mb-4">Direct Students Enrolled</div>
-          <div class="space-y-2 text-xs text-slate-600 border-t border-slate-200 pt-3">
-            <div class="flex justify-between">
-              <span>Target Girls:</span>
-              <span class="font-bold text-slate-800">&ge; 25 students</span>
-            </div>
-            <div class="flex justify-between">
-              <span>Facilitators:</span>
-              <span class="font-bold text-slate-800">2 (incl. 1 woman)</span>
-            </div>
-            <div class="flex justify-between">
-              <span>Sessions:</span>
-              <span class="font-bold text-slate-800">Morning & Afternoon</span>
-            </div>
-          </div>
+          <h3 class="font-bold text-slate-900 text-sm mb-1">Digital Literacy & Supervised Tech</h3>
+          <p class="text-slate-600 text-xs">Computer hardware orientation, keyboard typing, document formatting, and cyber safety.</p>
         </div>
 
-        <!-- Camp 18 -->
-        <div class="bg-slate-50 rounded-2xl p-6 border border-slate-200 hover:border-brand-500 transition-all shadow-xs hover:shadow-md">
-          <div class="flex justify-between items-start mb-4">
-            <span class="px-2.5 py-1 rounded-full text-xs font-bold bg-purple-100 text-purple-800">Camp 18</span>
-            <span class="text-xs font-semibold text-slate-400">Cox's Bazar</span>
+        <div class="bg-slate-50 border border-slate-200 rounded-xl p-4 hover:border-brand-300 transition-colors">
+          <div class="flex items-center justify-between mb-2">
+            <span class="font-bold text-amber-700 bg-amber-50 px-2.5 py-0.5 rounded border border-amber-200">12:30 – 13:15</span>
+            <span class="text-slate-400 text-xs font-medium">Midday</span>
           </div>
-          <div class="text-3xl font-extrabold text-slate-900 font-heading mb-1">50</div>
-          <div class="text-xs text-slate-500 mb-4">Direct Students Enrolled</div>
-          <div class="space-y-2 text-xs text-slate-600 border-t border-slate-200 pt-3">
-            <div class="flex justify-between">
-              <span>Target Girls:</span>
-              <span class="font-bold text-slate-800">&ge; 25 students</span>
-            </div>
-            <div class="flex justify-between">
-              <span>Facilitators:</span>
-              <span class="font-bold text-slate-800">2 (incl. 1 woman)</span>
-            </div>
-            <div class="flex justify-between">
-              <span>Sessions:</span>
-              <span class="font-bold text-slate-800">Morning & Afternoon</span>
-            </div>
-          </div>
+          <h3 class="font-bold text-slate-900 text-sm mb-1">Midday Break & Cohort Transition</h3>
+          <p class="text-slate-600 text-xs">Nutritional pause, informal socialization, sanitation refresh, and shift handover.</p>
         </div>
 
-      </div>
-
-      <!-- Coordination Callout -->
-      <div class="mt-8 bg-blue-50/70 border border-blue-200 rounded-xl p-4 text-xs md:text-sm text-slate-700 flex flex-col sm:flex-row items-center justify-between gap-4">
-        <div class="flex items-center gap-3">
-          <i class="fa-solid fa-circle-info text-brand-600 text-lg"></i>
-          <span><strong>Zero Duplication Policy:</strong> Centres complement existing camp learning facilities. Service mapping ensures we only fill verified coverage gaps.</span>
+        <div class="bg-slate-50 border border-slate-200 rounded-xl p-4 hover:border-brand-300 transition-colors">
+          <div class="flex items-center justify-between mb-2">
+            <span class="font-bold text-purple-700 bg-purple-50 px-2.5 py-0.5 rounded border border-purple-200">13:15 – 14:15</span>
+            <span class="text-slate-400 text-xs font-medium">Life Skills</span>
+          </div>
+          <h3 class="font-bold text-slate-900 text-sm mb-1">Life Skills, GBV Awareness & Protection</h3>
+          <p class="text-slate-600 text-xs">Respectful relationships, safe boundaries, personal hygiene, and youth leadership.</p>
         </div>
-        <span class="shrink-0 font-semibold text-brand-800">100% Voluntary & Free of Charge</span>
+
+        <div class="bg-slate-50 border border-slate-200 rounded-xl p-4 hover:border-brand-300 transition-colors">
+          <div class="flex items-center justify-between mb-2">
+            <span class="font-bold text-emerald-700 bg-emerald-50 px-2.5 py-0.5 rounded border border-emerald-200">14:15 – 15:00</span>
+            <span class="text-slate-400 text-xs font-medium">Recreation</span>
+          </div>
+          <h3 class="font-bold text-slate-900 text-sm mb-1">Sports, Visual Arts & Psychosocial Play</h3>
+          <p class="text-slate-600 text-xs">Team sports, drawing, cultural music, storytelling circles, and confidence building.</p>
+        </div>
+
       </div>
 
     </div>
   </section>
 
-  <!-- TRANSPARENT BUDGET ($50,000) & MEAL FRAMEWORK -->
-  <section id="budget" class="py-16 md:py-24 bg-slate-50">
+  <!-- CAMP LOCATIONS OVERVIEW -->
+  <section id="camps" class="py-16 md:py-24 bg-slate-50 border-t border-slate-200">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
       
-      <div class="text-center max-w-3xl mx-auto mb-16">
+      <div class="text-center max-w-3xl mx-auto mb-14">
         <span class="text-xs font-bold uppercase tracking-wider text-brand-600 bg-brand-50 px-3 py-1 rounded-full border border-brand-200">
-          Financial Integrity & Transparency
+          Target Locations
         </span>
-        <h2 class="text-3xl md:text-4xl font-extrabold text-slate-900 font-heading mt-3 mb-4">
-          Complete 12-Month Project Budget
+        <h2 class="text-2xl sm:text-3xl md:text-4xl font-extrabold text-slate-900 font-heading mt-3 mb-4">
+          Four Learning Centres in Cox's Bazar Camps
         </h2>
-        <p class="text-slate-600 text-sm md:text-base leading-relaxed">
-          Every dollar is budgeted with strict humanitarian efficiency. Total budget: <strong class="text-slate-900 font-bold">USD $50,000</strong> over 12 months (~$250 per student, ~$12,500 per centre).
+        <p class="text-slate-600 text-xs sm:text-sm md:text-base leading-relaxed">
+          Strategically distributed across four refugee camps based on verified community need, safe walking access for girls, and camp authority approvals.
+        </p>
+      </div>
+
+      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-5">
+        
+        <!-- Camp 4 -->
+        <div class="bg-white rounded-2xl p-5 border border-slate-200 hover:border-brand-500 transition-all shadow-xs hover:shadow-md">
+          <div class="flex justify-between items-start mb-3">
+            <span class="px-2.5 py-1 rounded-full text-xs font-bold bg-brand-100 text-brand-800">Camp 4 Centre</span>
+            <span class="text-xs font-medium text-slate-400">Cox's Bazar</span>
+          </div>
+          <div class="text-2xl font-extrabold text-slate-900 font-heading mb-1">50 Students</div>
+          <p class="text-xs text-slate-500 mb-4">Two alternating shifts of 25 learners</p>
+          <div class="space-y-2 text-xs text-slate-600 border-t border-slate-100 pt-3">
+            <div class="flex justify-between">
+              <span>Girls Target:</span>
+              <span class="font-bold text-slate-800">&ge; 25 students</span>
+            </div>
+            <div class="flex justify-between">
+              <span>Staffing:</span>
+              <span class="font-bold text-slate-800">2 Facilitators (1 Female)</span>
+            </div>
+            <div class="flex justify-between">
+              <span>Facility:</span>
+              <span class="font-bold text-slate-800">Safe Community Space</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Camp 5 -->
+        <div class="bg-white rounded-2xl p-5 border border-slate-200 hover:border-brand-500 transition-all shadow-xs hover:shadow-md">
+          <div class="flex justify-between items-start mb-3">
+            <span class="px-2.5 py-1 rounded-full text-xs font-bold bg-leaf-100 text-leaf-800">Camp 5 Centre</span>
+            <span class="text-xs font-medium text-slate-400">Cox's Bazar</span>
+          </div>
+          <div class="text-2xl font-extrabold text-slate-900 font-heading mb-1">50 Students</div>
+          <p class="text-xs text-slate-500 mb-4">Two alternating shifts of 25 learners</p>
+          <div class="space-y-2 text-xs text-slate-600 border-t border-slate-100 pt-3">
+            <div class="flex justify-between">
+              <span>Girls Target:</span>
+              <span class="font-bold text-slate-800">&ge; 25 students</span>
+            </div>
+            <div class="flex justify-between">
+              <span>Staffing:</span>
+              <span class="font-bold text-slate-800">2 Facilitators (1 Female)</span>
+            </div>
+            <div class="flex justify-between">
+              <span>Facility:</span>
+              <span class="font-bold text-slate-800">Safe Community Space</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Camp 17 -->
+        <div class="bg-white rounded-2xl p-5 border border-slate-200 hover:border-brand-500 transition-all shadow-xs hover:shadow-md">
+          <div class="flex justify-between items-start mb-3">
+            <span class="px-2.5 py-1 rounded-full text-xs font-bold bg-amber-100 text-amber-800">Camp 17 Centre</span>
+            <span class="text-xs font-medium text-slate-400">Cox's Bazar</span>
+          </div>
+          <div class="text-2xl font-extrabold text-slate-900 font-heading mb-1">50 Students</div>
+          <p class="text-xs text-slate-500 mb-4">Two alternating shifts of 25 learners</p>
+          <div class="space-y-2 text-xs text-slate-600 border-t border-slate-100 pt-3">
+            <div class="flex justify-between">
+              <span>Girls Target:</span>
+              <span class="font-bold text-slate-800">&ge; 25 students</span>
+            </div>
+            <div class="flex justify-between">
+              <span>Staffing:</span>
+              <span class="font-bold text-slate-800">2 Facilitators (1 Female)</span>
+            </div>
+            <div class="flex justify-between">
+              <span>Facility:</span>
+              <span class="font-bold text-slate-800">Safe Community Space</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Camp 18 -->
+        <div class="bg-white rounded-2xl p-5 border border-slate-200 hover:border-brand-500 transition-all shadow-xs hover:shadow-md">
+          <div class="flex justify-between items-start mb-3">
+            <span class="px-2.5 py-1 rounded-full text-xs font-bold bg-purple-100 text-purple-800">Camp 18 Centre</span>
+            <span class="text-xs font-medium text-slate-400">Cox's Bazar</span>
+          </div>
+          <div class="text-2xl font-extrabold text-slate-900 font-heading mb-1">50 Students</div>
+          <p class="text-xs text-slate-500 mb-4">Two alternating shifts of 25 learners</p>
+          <div class="space-y-2 text-xs text-slate-600 border-t border-slate-100 pt-3">
+            <div class="flex justify-between">
+              <span>Girls Target:</span>
+              <span class="font-bold text-slate-800">&ge; 25 students</span>
+            </div>
+            <div class="flex justify-between">
+              <span>Staffing:</span>
+              <span class="font-bold text-slate-800">2 Facilitators (1 Female)</span>
+            </div>
+            <div class="flex justify-between">
+              <span>Facility:</span>
+              <span class="font-bold text-slate-800">Safe Community Space</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Zero-Duplication Policy Banner -->
+      <div class="mt-8 bg-blue-50/70 border border-blue-200 rounded-xl p-4 text-xs md:text-sm text-slate-700 flex flex-col sm:flex-row items-center justify-between gap-3">
+        <div class="flex items-center gap-3">
+          <i class="fa-solid fa-circle-info text-brand-600 text-lg shrink-0"></i>
+          <span><strong>Zero Duplication Policy:</strong> Centres complement existing camp education facilities. Prior service mapping ensures we fill verified coverage gaps.</span>
+        </div>
+        <span class="shrink-0 font-semibold text-brand-800">100% Free & Open Access</span>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ACCOUNTABILITY & MEAL FRAMEWORK (NON-MONETARY) -->
+  <section id="accountability" class="py-16 md:py-24 bg-white border-t border-slate-200">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      
+      <div class="text-center max-w-3xl mx-auto mb-14">
+        <span class="text-xs font-bold uppercase tracking-wider text-brand-600 bg-brand-50 px-3 py-1 rounded-full border border-brand-200">
+          Accountability & Impact
+        </span>
+        <h2 class="text-2xl sm:text-3xl md:text-4xl font-extrabold text-slate-900 font-heading mt-3 mb-4">
+          Monitoring, Evaluation & Accountability (MEAL)
+        </h2>
+        <p class="text-slate-600 text-xs sm:text-sm md:text-base leading-relaxed">
+          RDO holds itself to rigorous standards of governance, child safeguarding, transparent feedback loops, and measurable educational outcomes.
         </p>
       </div>
 
       <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 items-start">
         
-        <!-- Left: Interactive Budget Table -->
-        <div class="lg:col-span-8 bg-white rounded-2xl shadow-sm border border-slate-200 overflow-hidden">
-          <div class="p-6 border-b border-slate-200 flex flex-col sm:flex-row justify-between items-start sm:items-center gap-2">
-            <div>
-              <h3 class="text-base font-bold text-slate-900 font-heading">Itemized Budget Lines</h3>
-              <p class="text-xs text-slate-500">Validated against Cox's Bazar local market rates</p>
-            </div>
-            <div class="text-xs font-bold px-3 py-1 rounded-full bg-emerald-50 text-emerald-700 border border-emerald-200">
-              Total: $50,000 (100%)
-            </div>
+        <!-- Left: MEAL Targets Table -->
+        <div class="lg:col-span-7 bg-slate-50 rounded-2xl border border-slate-200 overflow-hidden shadow-xs">
+          <div class="p-5 border-b border-slate-200 bg-white">
+            <h3 class="text-base font-bold text-slate-900 font-heading">Key Performance Indicators</h3>
+            <p class="text-xs text-slate-500">Measurable 12-month program benchmarks</p>
           </div>
 
-          <div class="overflow-x-auto">
-            <table class="w-full text-xs text-left">
-              <thead class="bg-slate-50 text-slate-500 font-semibold border-b border-slate-200">
-                <tr>
-                  <th class="py-3 px-4">#</th>
-                  <th class="py-3 px-4">Budget Line / Activity</th>
-                  <th class="py-3 px-4 text-right">Amount (USD)</th>
-                  <th class="py-3 px-4 text-right">Share (%)</th>
-                  <th class="py-3 px-4">Visual Proportion</th>
-                </tr>
-              </thead>
-              <tbody class="divide-y divide-slate-100 text-slate-700 font-medium">
-                <tr class="hover:bg-slate-50/80">
-                  <td class="py-2.5 px-4 font-bold text-slate-400">1</td>
-                  <td class="py-2.5 px-4 font-bold text-brand-900">Teachers and education facilitators (8 staff)</td>
-                  <td class="py-2.5 px-4 text-right font-bold text-slate-900">$19,000</td>
-                  <td class="py-2.5 px-4 text-right">38%</td>
-                  <td class="py-2.5 px-4"><div class="w-24 bg-slate-100 h-2 rounded-full overflow-hidden"><div class="bg-brand-600 h-full" style="width: 38%"></div></div></td>
-                </tr>
-                <tr class="hover:bg-slate-50/80">
-                  <td class="py-2.5 px-4 font-bold text-slate-400">2</td>
-                  <td class="py-2.5 px-4">Centre rent / space & utilities (4 centres)</td>
-                  <td class="py-2.5 px-4 text-right font-bold text-slate-900">$5,500</td>
-                  <td class="py-2.5 px-4 text-right">11%</td>
-                  <td class="py-2.5 px-4"><div class="w-24 bg-slate-100 h-2 rounded-full overflow-hidden"><div class="bg-brand-500 h-full" style="width: 11%"></div></div></td>
-                </tr>
-                <tr class="hover:bg-slate-50/80">
-                  <td class="py-2.5 px-4 font-bold text-slate-400">3</td>
-                  <td class="py-2.5 px-4">Child protection, GBV prevention & safeguarding</td>
-                  <td class="py-2.5 px-4 text-right font-bold text-slate-900">$4,500</td>
-                  <td class="py-2.5 px-4 text-right">9%</td>
-                  <td class="py-2.5 px-4"><div class="w-24 bg-slate-100 h-2 rounded-full overflow-hidden"><div class="bg-rose-500 h-full" style="width: 9%"></div></div></td>
-                </tr>
-                <tr class="hover:bg-slate-50/80">
-                  <td class="py-2.5 px-4 font-bold text-slate-400">4</td>
-                  <td class="py-2.5 px-4">Learning materials and student stationery</td>
-                  <td class="py-2.5 px-4 text-right font-bold text-slate-900">$3,500</td>
-                  <td class="py-2.5 px-4 text-right">7%</td>
-                  <td class="py-2.5 px-4"><div class="w-24 bg-slate-100 h-2 rounded-full overflow-hidden"><div class="bg-leaf-500 h-full" style="width: 7%"></div></div></td>
-                </tr>
-                <tr class="hover:bg-slate-50/80">
-                  <td class="py-2.5 px-4 font-bold text-slate-400">5</td>
-                  <td class="py-2.5 px-4">Furniture and classroom equipment</td>
-                  <td class="py-2.5 px-4 text-right font-bold text-slate-900">$3,000</td>
-                  <td class="py-2.5 px-4 text-right">6%</td>
-                  <td class="py-2.5 px-4"><div class="w-24 bg-slate-100 h-2 rounded-full overflow-hidden"><div class="bg-amber-500 h-full" style="width: 6%"></div></div></td>
-                </tr>
-                <tr class="hover:bg-slate-50/80">
-                  <td class="py-2.5 px-4 font-bold text-slate-400">6</td>
-                  <td class="py-2.5 px-4">Computer and digital learning equipment</td>
-                  <td class="py-2.5 px-4 text-right font-bold text-slate-900">$3,000</td>
-                  <td class="py-2.5 px-4 text-right">6%</td>
-                  <td class="py-2.5 px-4"><div class="w-24 bg-slate-100 h-2 rounded-full overflow-hidden"><div class="bg-sky-500 h-full" style="width: 6%"></div></div></td>
-                </tr>
-                <tr class="hover:bg-slate-50/80">
-                  <td class="py-2.5 px-4 font-bold text-slate-400">7</td>
-                  <td class="py-2.5 px-4">Sports, arts and recreation supplies</td>
-                  <td class="py-2.5 px-4 text-right font-bold text-slate-900">$2,000</td>
-                  <td class="py-2.5 px-4 text-right">4%</td>
-                  <td class="py-2.5 px-4"><div class="w-24 bg-slate-100 h-2 rounded-full overflow-hidden"><div class="bg-emerald-500 h-full" style="width: 4%"></div></div></td>
-                </tr>
-                <tr class="hover:bg-slate-50/80">
-                  <td class="py-2.5 px-4 font-bold text-slate-400">8</td>
-                  <td class="py-2.5 px-4">Youth / life-skills activities</td>
-                  <td class="py-2.5 px-4 text-right font-bold text-slate-900">$1,500</td>
-                  <td class="py-2.5 px-4 text-right">3%</td>
-                  <td class="py-2.5 px-4"><div class="w-24 bg-slate-100 h-2 rounded-full overflow-hidden"><div class="bg-purple-500 h-full" style="width: 3%"></div></div></td>
-                </tr>
-                <tr class="hover:bg-slate-50/80">
-                  <td class="py-2.5 px-4 font-bold text-slate-400">9</td>
-                  <td class="py-2.5 px-4">Monitoring, evaluation and accountability (MEAL)</td>
-                  <td class="py-2.5 px-4 text-right font-bold text-slate-900">$2,000</td>
-                  <td class="py-2.5 px-4 text-right">4%</td>
-                  <td class="py-2.5 px-4"><div class="w-24 bg-slate-100 h-2 rounded-full overflow-hidden"><div class="bg-blue-400 h-full" style="width: 4%"></div></div></td>
-                </tr>
-                <tr class="hover:bg-slate-50/80">
-                  <td class="py-2.5 px-4 font-bold text-slate-400">10</td>
-                  <td class="py-2.5 px-4">Transportation and field logistics</td>
-                  <td class="py-2.5 px-4 text-right font-bold text-slate-900">$1,500</td>
-                  <td class="py-2.5 px-4 text-right">3%</td>
-                  <td class="py-2.5 px-4"><div class="w-24 bg-slate-100 h-2 rounded-full overflow-hidden"><div class="bg-slate-400 h-full" style="width: 3%"></div></div></td>
-                </tr>
-                <tr class="hover:bg-slate-50/80">
-                  <td class="py-2.5 px-4 font-bold text-slate-400">11</td>
-                  <td class="py-2.5 px-4">Administration and communications</td>
-                  <td class="py-2.5 px-4 text-right font-bold text-slate-900">$1,500</td>
-                  <td class="py-2.5 px-4 text-right">3%</td>
-                  <td class="py-2.5 px-4"><div class="w-24 bg-slate-100 h-2 rounded-full overflow-hidden"><div class="bg-slate-400 h-full" style="width: 3%"></div></div></td>
-                </tr>
-                <tr class="hover:bg-slate-50/80">
-                  <td class="py-2.5 px-4 font-bold text-slate-400">12</td>
-                  <td class="py-2.5 px-4">Financial audit / independent compliance</td>
-                  <td class="py-2.5 px-4 text-right font-bold text-slate-900">$1,000</td>
-                  <td class="py-2.5 px-4 text-right">2%</td>
-                  <td class="py-2.5 px-4"><div class="w-24 bg-slate-100 h-2 rounded-full overflow-hidden"><div class="bg-teal-500 h-full" style="width: 2%"></div></div></td>
-                </tr>
-                <tr class="hover:bg-slate-50/80">
-                  <td class="py-2.5 px-4 font-bold text-slate-400">13</td>
-                  <td class="py-2.5 px-4">Contingency / risk management</td>
-                  <td class="py-2.5 px-4 text-right font-bold text-slate-900">$2,000</td>
-                  <td class="py-2.5 px-4 text-right">4%</td>
-                  <td class="py-2.5 px-4"><div class="w-24 bg-slate-100 h-2 rounded-full overflow-hidden"><div class="bg-amber-400 h-full" style="width: 4%"></div></div></td>
-                </tr>
-              </tbody>
-              <tfoot class="bg-slate-100 font-extrabold text-slate-900 border-t border-slate-300">
-                <tr>
-                  <td colspan="2" class="py-3 px-4 text-right">Total Project Investment:</td>
-                  <td class="py-3 px-4 text-right text-brand-700 text-sm">$50,000</td>
-                  <td class="py-3 px-4 text-right">100%</td>
-                  <td></td>
-                </tr>
-              </tfoot>
-            </table>
+          <div class="divide-y divide-slate-200 text-xs">
+            <div class="p-3.5 flex justify-between items-center hover:bg-white transition-colors">
+              <span class="text-slate-700 font-medium">Direct Students Enrolled & Attending</span>
+              <span class="font-extrabold text-brand-700 bg-white px-2.5 py-1 rounded shadow-2xs border border-slate-200">200 Students</span>
+            </div>
+            <div class="p-3.5 flex justify-between items-center hover:bg-white transition-colors">
+              <span class="text-slate-700 font-medium">Safe Community Learning Centres Operating</span>
+              <span class="font-extrabold text-brand-700 bg-white px-2.5 py-1 rounded shadow-2xs border border-slate-200">4 Centres</span>
+            </div>
+            <div class="p-3.5 flex justify-between items-center hover:bg-white transition-colors">
+              <span class="text-slate-700 font-medium">Girls Enrolled Proportion</span>
+              <span class="font-extrabold text-leaf-700 bg-white px-2.5 py-1 rounded shadow-2xs border border-slate-200">&ge; 50% Target</span>
+            </div>
+            <div class="p-3.5 flex justify-between items-center hover:bg-white transition-colors">
+              <span class="text-slate-700 font-medium">Learners Completing Competency Assessments</span>
+              <span class="font-extrabold text-slate-800 bg-white px-2.5 py-1 rounded shadow-2xs border border-slate-200">&ge; 80% Completion</span>
+            </div>
+            <div class="p-3.5 flex justify-between items-center hover:bg-white transition-colors">
+              <span class="text-slate-700 font-medium">Students Receiving Child Protection Awareness</span>
+              <span class="font-extrabold text-slate-800 bg-white px-2.5 py-1 rounded shadow-2xs border border-slate-200">200 Students</span>
+            </div>
+            <div class="p-3.5 flex justify-between items-center hover:bg-white transition-colors">
+              <span class="text-slate-700 font-medium">Parents, Caregivers & Community Elders Reached</span>
+              <span class="font-extrabold text-slate-800 bg-white px-2.5 py-1 rounded shadow-2xs border border-slate-200">&ge; 100 Reached</span>
+            </div>
+            <div class="p-3.5 flex justify-between items-center hover:bg-white transition-colors">
+              <span class="text-slate-700 font-medium">Staff & Volunteers Certified in Safeguarding/PSEA</span>
+              <span class="font-extrabold text-emerald-700 bg-white px-2.5 py-1 rounded shadow-2xs border border-slate-200">100% Certified</span>
+            </div>
+            <div class="p-3.5 flex justify-between items-center hover:bg-white transition-colors">
+              <span class="text-slate-700 font-medium">Operational Feedback Channels & Quarterly Reviews</span>
+              <span class="font-extrabold text-slate-800 bg-white px-2.5 py-1 rounded shadow-2xs border border-slate-200">4 Reviews / Year</span>
+            </div>
           </div>
         </div>
 
-        <!-- Right: MEAL Indicator Summary Table -->
-        <div class="lg:col-span-4 space-y-6">
-          <div class="bg-white rounded-2xl p-6 shadow-sm border border-slate-200">
-            <h3 class="text-base font-bold text-slate-900 font-heading mb-1">Key MEAL Targets</h3>
-            <p class="text-xs text-slate-500 mb-4">12-Month Accountability Framework</p>
-
-            <div class="space-y-3 text-xs">
-              
-              <div class="p-2.5 bg-slate-50 rounded-lg flex justify-between items-center">
-                <span class="text-slate-600 font-medium">Students Enrolled</span>
-                <span class="font-extrabold text-brand-700 bg-white px-2 py-0.5 rounded shadow-2xs border border-slate-200">200</span>
-              </div>
-
-              <div class="p-2.5 bg-slate-50 rounded-lg flex justify-between items-center">
-                <span class="text-slate-600 font-medium">Learning Centres Operating</span>
-                <span class="font-extrabold text-brand-700 bg-white px-2 py-0.5 rounded shadow-2xs border border-slate-200">4 Centres</span>
-              </div>
-
-              <div class="p-2.5 bg-slate-50 rounded-lg flex justify-between items-center">
-                <span class="text-slate-600 font-medium">Girls Enrolled Proportion</span>
-                <span class="font-extrabold text-leaf-700 bg-white px-2 py-0.5 rounded shadow-2xs border border-slate-200">&ge; 50%</span>
-              </div>
-
-              <div class="p-2.5 bg-slate-50 rounded-lg flex justify-between items-center">
-                <span class="text-slate-600 font-medium">Learning Assessment Completion</span>
-                <span class="font-extrabold text-slate-800 bg-white px-2 py-0.5 rounded shadow-2xs border border-slate-200">&ge; 80%</span>
-              </div>
-
-              <div class="p-2.5 bg-slate-50 rounded-lg flex justify-between items-center">
-                <span class="text-slate-600 font-medium">Protection Awareness Reach</span>
-                <span class="font-extrabold text-slate-800 bg-white px-2 py-0.5 rounded shadow-2xs border border-slate-200">200 Students</span>
-              </div>
-
-              <div class="p-2.5 bg-slate-50 rounded-lg flex justify-between items-center">
-                <span class="text-slate-600 font-medium">Caregivers & Community Reached</span>
-                <span class="font-extrabold text-slate-800 bg-white px-2 py-0.5 rounded shadow-2xs border border-slate-200">&ge; 100</span>
-              </div>
-
-              <div class="p-2.5 bg-slate-50 rounded-lg flex justify-between items-center">
-                <span class="text-slate-600 font-medium">Staff Trained in PSEA/GBV</span>
-                <span class="font-extrabold text-emerald-700 bg-white px-2 py-0.5 rounded shadow-2xs border border-slate-200">100% Active</span>
-              </div>
-
-            </div>
-
-            <div class="mt-6 pt-4 border-t border-slate-100">
-              <a href="#safeguarding" class="text-xs font-semibold text-brand-700 hover:text-brand-800 flex items-center justify-between">
-                <span>View Safeguarding & PSEA Policies</span>
-                <i class="fa-solid fa-arrow-right"></i>
-              </a>
-            </div>
-
+        <!-- Right: Resource Priorities & Risk Management -->
+        <div class="lg:col-span-5 space-y-5">
+          
+          <div class="bg-white rounded-2xl p-6 border border-slate-200 shadow-xs">
+            <h3 class="text-base font-bold text-slate-900 font-heading mb-3 flex items-center gap-2">
+              <i class="fa-solid fa-list-check text-brand-600"></i> Core Operational Priorities
+            </h3>
+            
+            <ul class="text-xs text-slate-600 space-y-2.5">
+              <li class="flex items-start gap-2">
+                <i class="fa-solid fa-circle-check text-leaf-500 mt-0.5"></i>
+                <span><strong>Frontline Educators:</strong> Qualified community teachers, continuous pedagogy training, and fair stipends.</span>
+              </li>
+              <li class="flex items-start gap-2">
+                <i class="fa-solid fa-circle-check text-leaf-500 mt-0.5"></i>
+                <span><strong>Safe Physical Spaces:</strong> Well-ventilated, weather-resilient shelters with clean WASH and child-friendly furniture.</span>
+              </li>
+              <li class="flex items-start gap-2">
+                <i class="fa-solid fa-circle-check text-leaf-500 mt-0.5"></i>
+                <span><strong>Learning Materials:</strong> Books, notebooks, writing supplies, and age-appropriate educational games.</span>
+              </li>
+              <li class="flex items-start gap-2">
+                <i class="fa-solid fa-circle-check text-leaf-500 mt-0.5"></i>
+                <span><strong>Digital Workstations:</strong> Supervised computers for typing, digital literacy, and basic file management.</span>
+              </li>
+              <li class="flex items-start gap-2">
+                <i class="fa-solid fa-circle-check text-leaf-500 mt-0.5"></i>
+                <span><strong>Safeguarding Oversight:</strong> Confidential complaint channels, female protection focal points, and survivor referral pathways.</span>
+              </li>
+            </ul>
           </div>
 
-          <!-- Quick Risk Box -->
           <div class="bg-amber-50/70 border border-amber-200 rounded-2xl p-5 text-xs text-amber-950">
             <h4 class="font-bold font-heading flex items-center gap-1.5 text-amber-900 mb-2">
-              <i class="fa-solid fa-triangle-exclamation text-amber-600"></i> Proactive Risk Management
+              <i class="fa-solid fa-shield text-amber-600"></i> Risk Mitigation & Safety First
             </h4>
             <p class="leading-relaxed text-amber-900/90 mb-2">
-              Weather hazards (monsoons/cyclones) are mitigated through contingency scheduling. Access permissions are secured with RRRC and camp authorities before launch.
+              Weather contingencies (cyclones/monsoons) are managed via flexible scheduling and reinforced shelters. Camp approvals and security protocols are mapped in full collaboration with local authorities prior to launch.
             </p>
-            <span class="font-semibold text-amber-900">Survivor-Centred GBV Referral Protocols Strictly Enforced.</span>
+            <span class="font-semibold text-amber-900">Survivor-Centred Protocols strictly enforced across all centres.</span>
           </div>
 
         </div>
@@ -1150,51 +1093,51 @@
   </section>
 
   <!-- SAFEGUARDING, PSEA & CODE OF CONDUCT -->
-  <section id="safeguarding" class="py-16 md:py-24 bg-white border-t border-slate-200">
+  <section id="safeguarding" class="py-16 md:py-24 bg-slate-50 border-t border-slate-200">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
       
-      <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
+      <div class="grid grid-cols-1 lg:grid-cols-12 gap-10 items-center">
         
         <div class="lg:col-span-6 space-y-6">
           <span class="text-xs font-bold uppercase tracking-wider text-rose-600 bg-rose-50 px-3 py-1 rounded-full border border-rose-200">
-            Protection & Accountability
+            Protection & Safeguarding
           </span>
-          <h2 class="text-3xl md:text-4xl font-extrabold text-slate-900 font-heading leading-tight">
-            Strict Child Safeguarding & PSEA Commitment
+          <h2 class="text-2xl sm:text-3xl md:text-4xl font-extrabold text-slate-900 font-heading leading-tight">
+            Strict Child Safeguarding & PSEA Guarantee
           </h2>
-          <p class="text-slate-600 text-sm md:text-base leading-relaxed">
-            At RDO, the safety and dignity of every child is non-negotiable. Before any child-facing activity begins, all personnel must sign our Code of Conduct and undergo mandatory training.
+          <p class="text-slate-600 text-xs sm:text-sm md:text-base leading-relaxed">
+            The safety and dignity of every child is the bedrock of RDO. All personnel, teachers, and volunteers must undergo vetting and sign our mandatory Child Safeguarding Policy and Code of Conduct before working with children.
           </p>
 
-          <div class="space-y-4">
+          <div class="space-y-3.5">
             
-            <div class="flex items-start gap-4">
+            <div class="flex items-start gap-3.5">
               <div class="w-10 h-10 rounded-xl bg-rose-50 text-rose-600 flex items-center justify-center shrink-0">
                 <i class="fa-solid fa-shield-virus"></i>
               </div>
               <div>
                 <h3 class="text-sm font-bold text-slate-900">Zero Tolerance for Exploitation & Abuse (PSEA)</h3>
-                <p class="text-xs text-slate-600">Strict adherence to UN and international PSEA guidelines with safe screening and vetting during all recruitment.</p>
+                <p class="text-xs text-slate-600">Strict adherence to UN Inter-Agency Standing Committee (IASC) standards with thorough background screening.</p>
               </div>
             </div>
 
-            <div class="flex items-start gap-4">
+            <div class="flex items-start gap-3.5">
               <div class="w-10 h-10 rounded-xl bg-amber-50 text-amber-600 flex items-center justify-center shrink-0">
                 <i class="fa-solid fa-comments"></i>
               </div>
               <div>
                 <h3 class="text-sm font-bold text-slate-900">Confidential Complaints Channels</h3>
-                <p class="text-xs text-slate-600">Child-friendly and caregiver-friendly feedback boxes in every centre with direct oversight by our Protection Focal Point.</p>
+                <p class="text-xs text-slate-600">Child-friendly and caregiver-accessible feedback boxes in every centre with direct female focal point review.</p>
               </div>
             </div>
 
-            <div class="flex items-start gap-4">
+            <div class="flex items-start gap-3.5">
               <div class="w-10 h-10 rounded-xl bg-blue-50 text-brand-600 flex items-center justify-center shrink-0">
                 <i class="fa-solid fa-route"></i>
               </div>
               <div>
                 <h3 class="text-sm font-bold text-slate-900">Survivor-Centred Mapped Referral Pathways</h3>
-                <p class="text-xs text-slate-600">RDO does not conduct clinical or unauthorized GBV case handling; disclosures are referred immediately to qualified humanitarian health partners.</p>
+                <p class="text-xs text-slate-600">RDO does not provide clinical or unauthorized case handling; sensitive disclosures are referred immediately to certified humanitarian actors.</p>
               </div>
             </div>
 
@@ -1202,35 +1145,35 @@
         </div>
 
         <div class="lg:col-span-6">
-          <div class="bg-slate-50 border border-slate-200 rounded-2xl p-6 sm:p-8">
+          <div class="bg-white border border-slate-200 rounded-2xl p-6 sm:p-7 shadow-xs">
             <h3 class="text-base font-bold text-slate-900 font-heading mb-4 flex items-center gap-2">
-              <i class="fa-solid fa-user-tie text-brand-600"></i> Project Staffing & Governance Plan
+              <i class="fa-solid fa-user-tie text-brand-600"></i> Staffing & Field Coordination
             </h3>
             
             <div class="space-y-3 text-xs sm:text-sm">
-              <div class="p-3 bg-white rounded-xl border border-slate-200">
+              <div class="p-3 bg-slate-50 rounded-xl border border-slate-200">
                 <div class="font-bold text-slate-800">Project Manager & Education Coordinator</div>
-                <div class="text-xs text-slate-500">Implementation, coordination with NRC/camp authorities, reporting, and pedagogy quality.</div>
+                <div class="text-xs text-slate-500">Oversees implementation, quality pedagogy, humanitarian coordination, and monitoring reports.</div>
               </div>
 
-              <div class="p-3 bg-white rounded-xl border border-slate-200">
-                <div class="font-bold text-slate-800">8 Centre Facilitators / Teachers (2 per centre)</div>
-                <div class="text-xs text-slate-500">Community educators. At least 1 woman per centre where feasible, delivering daily sessions.</div>
+              <div class="p-3 bg-slate-50 rounded-xl border border-slate-200">
+                <div class="font-bold text-slate-800">8 Centre Facilitators / Teachers (2 per Centre)</div>
+                <div class="text-xs text-slate-500">Trained community educators (at least 1 female per centre) conducting daily learning and life-skills sessions.</div>
               </div>
 
-              <div class="p-3 bg-white rounded-xl border border-slate-200">
-                <div class="font-bold text-slate-800">Safeguarding, GBV & Protection Focal Point (Part-time)</div>
-                <div class="text-xs text-slate-500">Female focal point managing confidential complaints, safe disclosures, and survivor referral pathways.</div>
+              <div class="p-3 bg-slate-50 rounded-xl border border-slate-200">
+                <div class="font-bold text-slate-800">Safeguarding, GBV & Protection Focal Point</div>
+                <div class="text-xs text-slate-500">Female specialist managing confidential complaints, safe disclosures, and survivor referral pathways.</div>
               </div>
 
-              <div class="p-3 bg-white rounded-xl border border-slate-200">
-                <div class="font-bold text-slate-800">MEAL & Finance / Admin Assistant (Part-time)</div>
-                <div class="text-xs text-slate-500">Monitoring data verification, feedback records, procurement transparency, and accounting.</div>
+              <div class="p-3 bg-slate-50 rounded-xl border border-slate-200">
+                <div class="font-bold text-slate-800">MEAL & Field Administration Assistant</div>
+                <div class="text-xs text-slate-500">Tracks attendance, learning gains, feedback verification, asset logs, and record-keeping.</div>
               </div>
 
-              <div class="p-3 bg-white rounded-xl border border-slate-200">
+              <div class="p-3 bg-slate-50 rounded-xl border border-slate-200">
                 <div class="font-bold text-slate-800">Supervised Community Volunteers</div>
-                <div class="text-xs text-slate-500">Parent and youth volunteers supporting sports, art exhibitions, and community consultation.</div>
+                <div class="text-xs text-slate-500">Local parents and youth supporting arts, sports tournaments, and community outreach.</div>
               </div>
             </div>
           </div>
@@ -1241,178 +1184,137 @@
     </div>
   </section>
 
-  <!-- OFFICIAL PROPOSAL DOCUMENT CENTER -->
-  <section id="proposal" class="py-16 md:py-24 bg-gradient-to-b from-brand-950 to-brand-900 text-white relative">
-    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-      
-      <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
-        
-        <div class="lg:col-span-7 space-y-6">
-          <div class="inline-flex items-center space-x-2 px-3 py-1 rounded-full bg-white/10 text-xs text-sun-300 font-semibold border border-white/20">
-            <i class="fa-solid fa-file-contract"></i> Official Submission Document
-          </div>
-
-          <h2 class="text-3xl md:text-4xl font-extrabold font-heading text-white">
-            Download the Full 7-Page Project Proposal
-          </h2>
-
-          <p class="text-slate-300 text-sm md:text-base leading-relaxed">
-            Presented to the <strong class="text-white">Norwegian Refugee Council (NRC), Bangladesh</strong> in October 2026. Contains comprehensive situation analysis, risk matrices, budget breakdowns, curriculum outlines, and staffing structures.
-          </p>
-
-          <div class="space-y-2 text-xs md:text-sm text-slate-300">
-            <div class="flex items-center gap-2">
-              <i class="fa-solid fa-check text-leaf-400"></i>
-              <span>Section 1–3: Executive Summary, Camp Problem Context & Core Objectives</span>
-            </div>
-            <div class="flex items-center gap-2">
-              <i class="fa-solid fa-check text-leaf-400"></i>
-              <span>Section 4–7: Target Beneficiaries (200 Students), 6 Components & Staffing Plan</span>
-            </div>
-            <div class="flex items-center gap-2">
-              <i class="fa-solid fa-check text-leaf-400"></i>
-              <span>Section 8–10: Implementation Phases, Coordination & MEAL Targets</span>
-            </div>
-            <div class="flex items-center gap-2">
-              <i class="fa-solid fa-check text-leaf-400"></i>
-              <span>Section 11–13: 8-Point Risk Management Matrix & Complete $50,000 Budget</span>
-            </div>
-            <div class="flex items-center gap-2">
-              <i class="fa-solid fa-check text-leaf-400"></i>
-              <span>Section 14–16: Sustainability, Transition Strategy & Formal Partnership Call</span>
-            </div>
-          </div>
-
-          <div class="pt-4 flex flex-wrap gap-4">
-            <a href="RDO-Learning-Centres-Proposal.pdf" download="RDO-Learning-Centres-Proposal.pdf" class="px-6 py-3.5 rounded-xl bg-gradient-to-r from-leaf-500 to-leaf-600 hover:from-leaf-600 hover:to-leaf-700 text-white font-bold text-sm shadow-xl flex items-center gap-2">
-              <i class="fa-solid fa-file-arrow-down text-lg"></i> Download PDF (608 KB)
-            </a>
-            <button onclick="openProposalModal()" class="px-6 py-3.5 rounded-xl bg-white/10 hover:bg-white/20 border border-white/20 text-white font-semibold text-sm transition-all flex items-center gap-2">
-              <i class="fa-solid fa-book-open"></i> Read Executive Summary
-            </button>
-          </div>
-
-        </div>
-
-        <!-- Document Preview Graphic -->
-        <div class="lg:col-span-5">
-          <div class="bg-white rounded-2xl p-6 text-slate-800 shadow-2xl border-4 border-white/10 relative">
-            
-            <div class="text-center pb-4 border-b border-slate-100">
-              <img src="rdo-logo.png" alt="RDO Logo" class="h-16 w-auto mx-auto object-contain mb-2">
-              <h3 class="text-base font-extrabold font-heading text-brand-900">PROJECT PROPOSAL</h3>
-              <p class="text-xs font-semibold text-slate-500">RDO Learning Centres for Rohingya Children & Youth</p>
-              <p class="text-[10px] text-brand-600 uppercase tracking-widest mt-1">October 2026 • Cox's Bazar</p>
-            </div>
-
-            <div class="py-4 space-y-2 text-xs text-slate-600">
-              <div class="bg-slate-50 p-2.5 rounded-lg flex justify-between">
-                <span>Beneficiaries:</span>
-                <span class="font-bold text-slate-800">200 Rohingya Children & Youth</span>
-              </div>
-              <div class="bg-slate-50 p-2.5 rounded-lg flex justify-between">
-                <span>Centres:</span>
-                <span class="font-bold text-slate-800">4 Community Centres (Camps 4, 5, 17, 18)</span>
-              </div>
-              <div class="bg-slate-50 p-2.5 rounded-lg flex justify-between">
-                <span>Total Budget:</span>
-                <span class="font-bold text-brand-700">USD $50,000 (12 Months)</span>
-              </div>
-              <div class="bg-slate-50 p-2.5 rounded-lg flex justify-between">
-                <span>Prepared By:</span>
-                <span class="font-bold text-slate-800">Rohingya Development Organisation</span>
-              </div>
-            </div>
-
-            <a href="RDO-Learning-Centres-Proposal.pdf" download class="w-full py-2.5 px-4 rounded-xl bg-brand-700 hover:bg-brand-800 text-white text-xs font-bold text-center block transition-colors shadow">
-              <i class="fa-solid fa-download mr-1.5"></i> Download Original PDF File
-            </a>
-
-          </div>
-        </div>
-
-      </div>
-
-    </div>
-  </section>
-
-  <!-- GET INVOLVED / PARTNER WITH US SECTION -->
+  <!-- GET INVOLVED / PARTNER WITH US SECTION (NON-MONETARY) -->
   <section id="get-involved" class="py-16 md:py-24 bg-white border-t border-slate-200">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
       
-      <div class="text-center max-w-3xl mx-auto mb-16">
+      <div class="text-center max-w-3xl mx-auto mb-14">
         <span class="text-xs font-bold uppercase tracking-wider text-leaf-600 bg-leaf-50 px-3 py-1 rounded-full border border-leaf-200">
-          Join Hands With RDO
+          Collaboration & Support
         </span>
-        <h2 class="text-3xl md:text-4xl font-extrabold text-slate-900 font-heading mt-3 mb-4">
-          Ways to Partner and Support
+        <h2 class="text-2xl sm:text-3xl md:text-4xl font-extrabold text-slate-900 font-heading mt-3 mb-4">
+          Ways to Partner with RDO
         </h2>
-        <p class="text-slate-600 text-sm md:text-base leading-relaxed">
-          Whether you are an international NGO, institutional donor, philanthropic foundation, or individual supporter, your partnership directly creates learning opportunities in the camps.
+        <p class="text-slate-600 text-xs sm:text-sm md:text-base leading-relaxed">
+          We welcome collaboration with international NGOs, UN bodies, foundations, academic institutions, and supporters seeking genuine community impact.
         </p>
       </div>
 
-      <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
         
-        <!-- Tier 1 -->
+        <!-- Pillar 1 -->
         <div class="rounded-2xl p-6 border-2 border-slate-200 hover:border-brand-500 transition-all flex flex-col justify-between bg-slate-50/50">
           <div>
             <div class="w-12 h-12 rounded-xl bg-brand-100 text-brand-700 flex items-center justify-center text-xl font-bold mb-4">
-              <i class="fa-solid fa-child"></i>
+              <i class="fa-solid fa-book"></i>
             </div>
-            <h3 class="text-lg font-bold text-slate-900 font-heading mb-1">Sponsor a Student</h3>
-            <div class="text-2xl font-extrabold text-brand-700 font-heading my-2">
-              $250 <span class="text-xs font-normal text-slate-500">/ student / year</span>
-            </div>
+            <h3 class="text-base sm:text-lg font-bold text-slate-900 font-heading mb-2">Educational Supplies & Kits</h3>
             <p class="text-xs text-slate-600 leading-relaxed mb-4">
-              Covers a full year of supplementary learning, stationery, reading books, digital literacy sessions, and life-skills training for one Rohingya child.
+              Support student notebooks, pens, pencils, reading books, whiteboards, drawing pads, and sports gear for children in Camps 4, 5, 17, and 18.
             </p>
           </div>
-          <a href="https://wa.me/8801879479062?text=Hello%20RDO,%20I%20would%20like%20to%20sponsor%20a%20student%20($250/year)." target="_blank" class="w-full text-center py-2.5 px-4 rounded-xl bg-brand-700 hover:bg-brand-800 text-white font-semibold text-xs transition-colors shadow">
-            Pledge Sponsorship
+          <a href="https://wa.me/8801879479062?text=Hello%20RDO,%20I%20would%20like%20to%20support%20educational%20supplies%20for%20the%20learning%20centres." target="_blank" class="w-full text-center py-2.5 px-4 rounded-xl bg-brand-700 hover:bg-brand-800 text-white font-semibold text-xs transition-colors shadow">
+            Support Supplies via WhatsApp
           </a>
         </div>
 
-        <!-- Tier 2 (Highlighted) -->
-        <div class="rounded-2xl p-6 border-2 border-leaf-500 bg-leaf-50/30 shadow-lg relative flex flex-col justify-between">
-          <div class="absolute -top-3.5 left-1/2 -translate-x-1/2 bg-leaf-600 text-white text-[10px] font-extrabold uppercase px-3 py-1 rounded-full shadow">
+        <!-- Pillar 2 (Featured) -->
+        <div class="rounded-2xl p-6 border-2 border-leaf-500 bg-leaf-50/40 shadow-sm relative flex flex-col justify-between">
+          <div class="absolute -top-3 left-1/2 -translate-x-1/2 bg-leaf-600 text-white text-[10px] font-extrabold uppercase px-3 py-0.5 rounded-full shadow-xs">
             High Impact
           </div>
           <div>
             <div class="w-12 h-12 rounded-xl bg-leaf-100 text-leaf-700 flex items-center justify-center text-xl font-bold mb-4">
-              <i class="fa-solid fa-school"></i>
+              <i class="fa-solid fa-laptop"></i>
             </div>
-            <h3 class="text-lg font-bold text-slate-900 font-heading mb-1">Adopt a Learning Centre</h3>
-            <div class="text-2xl font-extrabold text-leaf-700 font-heading my-2">
-              $12,500 <span class="text-xs font-normal text-slate-500">/ centre / year</span>
-            </div>
+            <h3 class="text-base sm:text-lg font-bold text-slate-900 font-heading mb-2">Digital Devices & Tech Tools</h3>
             <p class="text-xs text-slate-600 leading-relaxed mb-4">
-              Fully funds an entire community learning centre serving 50 children in Camp 4, 5, 17, or 18, including 2 teachers, rent, utilities, and materials.
+              Equip our digital learning stations with laptops, tablets, computer accessories, or solar power solutions to provide supervised technology skills.
             </p>
           </div>
-          <a href="https://wa.me/8801879479062?text=Hello%20RDO,%20our%20organisation/foundation%20is%20interested%20in%20adopting%20a%20learning%20centre%20($12,500/year)." target="_blank" class="w-full text-center py-2.5 px-4 rounded-xl bg-leaf-600 hover:bg-leaf-700 text-white font-semibold text-xs transition-colors shadow">
-            Partner for a Centre
+          <a href="https://wa.me/8801879479062?text=Hello%20RDO,%20I%20would%20like%20to%20discuss%20digital%20equipment%20and%20tech%20support." target="_blank" class="w-full text-center py-2.5 px-4 rounded-xl bg-leaf-600 hover:bg-leaf-700 text-white font-semibold text-xs transition-colors shadow">
+            Connect About Tech Tools
           </a>
         </div>
 
-        <!-- Tier 3 -->
+        <!-- Pillar 3 -->
         <div class="rounded-2xl p-6 border-2 border-slate-200 hover:border-brand-500 transition-all flex flex-col justify-between bg-slate-50/50">
           <div>
             <div class="w-12 h-12 rounded-xl bg-sky-100 text-sky-700 flex items-center justify-center text-xl font-bold mb-4">
               <i class="fa-solid fa-handshake"></i>
             </div>
-            <h3 class="text-lg font-bold text-slate-900 font-heading mb-1">INGO / Institutional Grant</h3>
-            <div class="text-2xl font-extrabold text-brand-900 font-heading my-2">
-              $50,000 <span class="text-xs font-normal text-slate-500">full project grant</span>
-            </div>
+            <h3 class="text-base sm:text-lg font-bold text-slate-900 font-heading mb-2">Institutional Partnerships</h3>
             <p class="text-xs text-slate-600 leading-relaxed mb-4">
-              Ideal for INGOs (like NRC, UNHCR, Save the Children) or institutional funders seeking an accountable, community-led implementing partner.
+              Partner with RDO as an implementing partner, INGO, or research collaborator on child protection, teacher development, and community resilience.
             </p>
           </div>
-          <a href="mailto:rohingyadevelopmento@gmail.com?subject=Institutional%20Partnership%20Inquiry%20-%20RDO%20Learning%20Centres" class="w-full text-center py-2.5 px-4 rounded-xl bg-slate-900 hover:bg-slate-800 text-white font-semibold text-xs transition-colors shadow">
-            Contact Executive Director
+          <a href="mailto:rohingyadevelopmento@gmail.com?subject=Institutional%20Partnership%20Inquiry%20-%20RDO" class="w-full text-center py-2.5 px-4 rounded-xl bg-slate-900 hover:bg-slate-800 text-white font-semibold text-xs transition-colors shadow">
+            Email Executive Director
           </a>
         </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- FREQUENTLY ASKED QUESTIONS (FAQ) -->
+  <section id="faq" class="py-16 md:py-24 bg-slate-50 border-t border-slate-200">
+    <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+      
+      <div class="text-center mb-12">
+        <span class="text-xs font-bold uppercase tracking-wider text-brand-600 bg-brand-50 px-3 py-1 rounded-full border border-brand-200">
+          Common Questions
+        </span>
+        <h2 class="text-2xl sm:text-3xl font-extrabold text-slate-900 font-heading mt-3 mb-2">
+          Frequently Asked Questions
+        </h2>
+        <p class="text-slate-600 text-xs sm:text-sm">
+          Everything you need to know about RDO's community learning centres.
+        </p>
+      </div>
+
+      <div class="space-y-3 text-xs sm:text-sm">
+        
+        <details class="bg-white rounded-xl p-4 border border-slate-200 cursor-pointer group">
+          <summary class="font-bold text-slate-900 flex justify-between items-center list-none">
+            <span>How do RDO Learning Centres coordinate with camp authorities?</span>
+            <i class="fa-solid fa-chevron-down text-slate-400 group-open:rotate-180 transition-transform"></i>
+          </summary>
+          <p class="text-slate-600 mt-3 pt-3 border-t border-slate-100 leading-relaxed">
+            RDO operates with full respect for existing humanitarian coordination structures. Before any centre begins operations, site assessments and service mappings are reviewed with relevant camp authorities, RRRC, and education/protection sector coordinators to ensure zero duplication and full safety compliance.
+          </p>
+        </details>
+
+        <details class="bg-white rounded-xl p-4 border border-slate-200 cursor-pointer group">
+          <summary class="font-bold text-slate-900 flex justify-between items-center list-none">
+            <span>Who are the primary students attending these centres?</span>
+            <i class="fa-solid fa-chevron-down text-slate-400 group-open:rotate-180 transition-transform"></i>
+          </summary>
+          <p class="text-slate-600 mt-3 pt-3 border-t border-slate-100 leading-relaxed">
+            Our centres serve 200 Rohingya children and adolescent youth in Camps 4, 5, 17, and 18. Participation is 100% voluntary and free of charge, with a proactive commitment that at least 50% of enrolled students are adolescent girls.
+          </p>
+        </details>
+
+        <details class="bg-white rounded-xl p-4 border border-slate-200 cursor-pointer group">
+          <summary class="font-bold text-slate-900 flex justify-between items-center list-none">
+            <span>How is child safeguarding and PSEA managed?</span>
+            <i class="fa-solid fa-chevron-down text-slate-400 group-open:rotate-180 transition-transform"></i>
+          </summary>
+          <p class="text-slate-600 mt-3 pt-3 border-t border-slate-100 leading-relaxed">
+            Every staff member and volunteer signs our Child Safeguarding Policy and Code of Conduct. We maintain child-friendly confidential feedback boxes in all centres and have a designated female Protection Focal Point. RDO adheres strictly to survivor-centred referral protocols to qualified clinical and protection actors.
+          </p>
+        </details>
+
+        <details class="bg-white rounded-xl p-4 border border-slate-200 cursor-pointer group">
+          <summary class="font-bold text-slate-900 flex justify-between items-center list-none">
+            <span>How can an organization get in touch to partner or provide technical assistance?</span>
+            <i class="fa-solid fa-chevron-down text-slate-400 group-open:rotate-180 transition-transform"></i>
+          </summary>
+          <p class="text-slate-600 mt-3 pt-3 border-t border-slate-100 leading-relaxed">
+            You can reach our Executive Director Ershad Hossain directly via WhatsApp (+880 1879-479062), phone (+880 1832-103006), or email at rohingyadevelopmento@gmail.com. We are eager to arrange in-person or virtual briefings.
+          </p>
+        </details>
 
       </div>
 
@@ -1420,52 +1322,54 @@
   </section>
 
   <!-- CONTACT & FIELD DETAILS SECTION -->
-  <section id="contact" class="py-16 md:py-24 bg-slate-50 border-t border-slate-200">
+  <section id="contact" class="py-16 md:py-24 bg-white border-t border-slate-200">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
       
-      <div class="text-center max-w-3xl mx-auto mb-16">
+      <div class="text-center max-w-3xl mx-auto mb-14">
         <span class="text-xs font-bold uppercase tracking-wider text-brand-600 bg-brand-50 px-3 py-1 rounded-full border border-brand-200">
           Get in Touch
         </span>
-        <h2 class="text-3xl md:text-4xl font-extrabold text-slate-900 font-heading mt-3 mb-4">
+        <h2 class="text-2xl sm:text-3xl md:text-4xl font-extrabold text-slate-900 font-heading mt-3 mb-4">
           Contact Rohingya Development Organisation
         </h2>
-        <p class="text-slate-600 text-sm md:text-base leading-relaxed">
-          We welcome dialogue, questions, technical guidance, and meeting requests from donors, humanitarian partners, and supporters worldwide.
+        <p class="text-slate-600 text-xs sm:text-sm md:text-base leading-relaxed">
+          We welcome dialogue, questions, technical guidance, and meeting requests from humanitarian agencies, academic partners, and friends worldwide.
         </p>
       </div>
 
       <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 items-start">
         
         <!-- Left: Verified Contact Information -->
-        <div class="lg:col-span-5 space-y-6">
-          <div class="bg-white rounded-2xl p-6 sm:p-8 shadow-sm border border-slate-200 space-y-6">
+        <div class="lg:col-span-5 space-y-5">
+          <div class="bg-slate-50 rounded-2xl p-6 sm:p-7 border border-slate-200 space-y-5">
             
-            <h3 class="text-base font-bold text-slate-900 font-heading border-b border-slate-100 pb-3">
+            <h3 class="text-base font-bold text-slate-900 font-heading border-b border-slate-200 pb-3">
               Official Contact Points
             </h3>
 
             <!-- Phone 1 (Primary) -->
-            <div class="flex items-start gap-4">
-              <div class="w-10 h-10 rounded-xl bg-brand-50 text-brand-600 flex items-center justify-center shrink-0">
+            <div class="flex items-start gap-3.5">
+              <div class="w-10 h-10 rounded-xl bg-brand-100 text-brand-700 flex items-center justify-center shrink-0">
                 <i class="fa-solid fa-phone"></i>
               </div>
               <div class="flex-1">
-                <div class="text-xs text-slate-400 font-medium">Primary Phone & WhatsApp</div>
+                <div class="text-[11px] text-slate-400 font-medium">Primary Telephone & WhatsApp</div>
                 <a href="tel:+8801879479062" class="text-sm font-bold text-slate-800 hover:text-brand-600 transition-colors">
                   +880 1879-479062
                 </a>
-                <div class="text-xs text-leaf-600 font-medium">WhatsApp Enabled</div>
+                <div class="text-xs text-leaf-600 font-semibold flex items-center gap-1 mt-0.5">
+                  <i class="fa-brands fa-whatsapp"></i> WhatsApp Active
+                </div>
               </div>
             </div>
 
             <!-- Phone 2 -->
-            <div class="flex items-start gap-4">
-              <div class="w-10 h-10 rounded-xl bg-slate-100 text-slate-600 flex items-center justify-center shrink-0">
+            <div class="flex items-start gap-3.5">
+              <div class="w-10 h-10 rounded-xl bg-slate-200 text-slate-700 flex items-center justify-center shrink-0">
                 <i class="fa-solid fa-mobile-screen-button"></i>
               </div>
               <div class="flex-1">
-                <div class="text-xs text-slate-400 font-medium">Secondary Contact</div>
+                <div class="text-[11px] text-slate-400 font-medium">Secondary Telephone</div>
                 <a href="tel:+8801832103006" class="text-sm font-bold text-slate-800 hover:text-brand-600 transition-colors">
                   +880 1832-103006
                 </a>
@@ -1473,39 +1377,39 @@
             </div>
 
             <!-- Email 1 -->
-            <div class="flex items-start gap-4">
-              <div class="w-10 h-10 rounded-xl bg-brand-50 text-brand-600 flex items-center justify-center shrink-0">
+            <div class="flex items-start gap-3.5">
+              <div class="w-10 h-10 rounded-xl bg-brand-100 text-brand-700 flex items-center justify-center shrink-0">
                 <i class="fa-solid fa-envelope"></i>
               </div>
               <div class="flex-1">
-                <div class="text-xs text-slate-400 font-medium">Official Organization Email</div>
-                <a href="mailto:rohingyadevelopmento@gmail.com" class="text-sm font-bold text-slate-800 hover:text-brand-600 transition-colors break-all">
+                <div class="text-[11px] text-slate-400 font-medium">Official Organisation Email</div>
+                <a href="mailto:rohingyadevelopmento@gmail.com" class="text-xs sm:text-sm font-bold text-slate-800 hover:text-brand-600 transition-colors break-all">
                   rohingyadevelopmento@gmail.com
                 </a>
               </div>
             </div>
 
             <!-- Email 2 (Executive) -->
-            <div class="flex items-start gap-4">
-              <div class="w-10 h-10 rounded-xl bg-slate-100 text-slate-600 flex items-center justify-center shrink-0">
+            <div class="flex items-start gap-3.5">
+              <div class="w-10 h-10 rounded-xl bg-slate-200 text-slate-700 flex items-center justify-center shrink-0">
                 <i class="fa-solid fa-user-shield"></i>
               </div>
               <div class="flex-1">
-                <div class="text-xs text-slate-400 font-medium">Executive Director Email</div>
-                <a href="mailto:irshaadhussainarsd@gmail.com" class="text-sm font-bold text-slate-800 hover:text-brand-600 transition-colors break-all">
+                <div class="text-[11px] text-slate-400 font-medium">Executive Director Email</div>
+                <a href="mailto:irshaadhussainarsd@gmail.com" class="text-xs sm:text-sm font-bold text-slate-800 hover:text-brand-600 transition-colors break-all">
                   irshaadhussainarsd@gmail.com
                 </a>
               </div>
             </div>
 
-            <!-- Field Office Location -->
-            <div class="flex items-start gap-4">
-              <div class="w-10 h-10 rounded-xl bg-leaf-50 text-leaf-600 flex items-center justify-center shrink-0">
+            <!-- Operational Base -->
+            <div class="flex items-start gap-3.5">
+              <div class="w-10 h-10 rounded-xl bg-leaf-100 text-leaf-700 flex items-center justify-center shrink-0">
                 <i class="fa-solid fa-location-dot"></i>
               </div>
               <div class="flex-1">
-                <div class="text-xs text-slate-400 font-medium">Operational Base</div>
-                <div class="text-sm font-bold text-slate-800">
+                <div class="text-[11px] text-slate-400 font-medium">Field Base</div>
+                <div class="text-xs sm:text-sm font-bold text-slate-800">
                   Camps 4, 5, 17 and 18
                 </div>
                 <div class="text-xs text-slate-500">Cox's Bazar, Bangladesh</div>
@@ -1517,54 +1421,54 @@
 
         <!-- Right: Interactive Contact Form -->
         <div class="lg:col-span-7">
-          <div class="bg-white rounded-2xl p-6 sm:p-8 shadow-sm border border-slate-200">
-            <h3 class="text-base font-bold text-slate-900 font-heading mb-2">Send a Message</h3>
-            <p class="text-xs text-slate-500 mb-6">Fill in your inquiry to directly generate an email or open a direct WhatsApp chat.</p>
+          <div class="bg-slate-50 rounded-2xl p-6 sm:p-7 border border-slate-200">
+            <h3 class="text-base font-bold text-slate-900 font-heading mb-1.5">Send a Message</h3>
+            <p class="text-xs text-slate-500 mb-5">Fill in your inquiry to dispatch directly to Rohingya Development Organisation.</p>
 
             <form id="contact-form" onsubmit="handleFormSubmit(event)" class="space-y-4">
               <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
                 <div>
                   <label for="contact-name" class="block text-xs font-semibold text-slate-700 mb-1">Your Name *</label>
-                  <input type="text" id="contact-name" required placeholder="e.g. Sarah Jenkins" class="w-full text-xs px-3.5 py-2.5 rounded-lg border border-slate-300 focus:outline-none focus:ring-2 focus:ring-brand-500 focus:border-brand-500 transition-colors">
+                  <input type="text" id="contact-name" required placeholder="e.g. John Doe" class="w-full text-xs px-3.5 py-2.5 rounded-lg border border-slate-300 bg-white focus:outline-none focus:ring-2 focus:ring-brand-500 focus:border-brand-500 transition-colors">
                 </div>
                 <div>
                   <label for="contact-org" class="block text-xs font-semibold text-slate-700 mb-1">Organization / Affiliation</label>
-                  <input type="text" id="contact-org" placeholder="e.g. NRC / University / Foundation" class="w-full text-xs px-3.5 py-2.5 rounded-lg border border-slate-300 focus:outline-none focus:ring-2 focus:ring-brand-500 focus:border-brand-500 transition-colors">
+                  <input type="text" id="contact-org" placeholder="e.g. NGO / Partner / University" class="w-full text-xs px-3.5 py-2.5 rounded-lg border border-slate-300 bg-white focus:outline-none focus:ring-2 focus:ring-brand-500 focus:border-brand-500 transition-colors">
                 </div>
               </div>
 
               <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
                 <div>
                   <label for="contact-email" class="block text-xs font-semibold text-slate-700 mb-1">Email Address *</label>
-                  <input type="email" id="contact-email" required placeholder="name@domain.org" class="w-full text-xs px-3.5 py-2.5 rounded-lg border border-slate-300 focus:outline-none focus:ring-2 focus:ring-brand-500 focus:border-brand-500 transition-colors">
+                  <input type="email" id="contact-email" required placeholder="name@organization.org" class="w-full text-xs px-3.5 py-2.5 rounded-lg border border-slate-300 bg-white focus:outline-none focus:ring-2 focus:ring-brand-500 focus:border-brand-500 transition-colors">
                 </div>
                 <div>
-                  <label for="contact-subject" class="block text-xs font-semibold text-slate-700 mb-1">Inquiry Type</label>
+                  <label for="contact-subject" class="block text-xs font-semibold text-slate-700 mb-1">Subject / Area of Interest</label>
                   <select id="contact-subject" class="w-full text-xs px-3.5 py-2.5 rounded-lg border border-slate-300 focus:outline-none focus:ring-2 focus:ring-brand-500 focus:border-brand-500 transition-colors bg-white">
-                    <option value="Institutional Partnership">Institutional Partnership (NRC / UN / INGO)</option>
-                    <option value="Funding & Donation">Funding & Donation</option>
+                    <option value="Institutional Collaboration">Institutional Collaboration (UN / INGO)</option>
+                    <option value="Educational Materials & Supplies">Educational Materials & Supplies</option>
+                    <option value="Digital Literacy & Devices">Digital Literacy & Devices</option>
                     <option value="Technical Guidance / Curriculum">Technical Guidance / Curriculum</option>
-                    <option value="Equipment / Tech Donation">Equipment / Device Donation</option>
-                    <option value="General Question">General Inquiry</option>
+                    <option value="General Inquiry">General Inquiry</option>
                   </select>
                 </div>
               </div>
 
               <div>
                 <label for="contact-message" class="block text-xs font-semibold text-slate-700 mb-1">Your Message *</label>
-                <textarea id="contact-message" rows="4" required placeholder="Please describe how you'd like to collaborate or support the RDO Learning Centres..." class="w-full text-xs px-3.5 py-2.5 rounded-lg border border-slate-300 focus:outline-none focus:ring-2 focus:ring-brand-500 focus:border-brand-500 transition-colors"></textarea>
+                <textarea id="contact-message" rows="4" required placeholder="Please describe how you'd like to collaborate or support RDO Learning Centres..." class="w-full text-xs px-3.5 py-2.5 rounded-lg border border-slate-300 bg-white focus:outline-none focus:ring-2 focus:ring-brand-500 focus:border-brand-500 transition-colors"></textarea>
               </div>
 
               <div class="flex flex-col sm:flex-row gap-3 pt-2">
-                <button type="submit" class="flex-1 py-3 px-6 rounded-xl bg-brand-700 hover:bg-brand-800 text-white font-bold text-xs transition-colors shadow flex items-center justify-center gap-2">
+                <button type="submit" class="flex-1 py-3 px-5 rounded-xl bg-brand-700 hover:bg-brand-800 text-white font-bold text-xs transition-colors shadow flex items-center justify-center gap-2">
                   <i class="fa-solid fa-paper-plane"></i> Send Official Email
                 </button>
-                <button type="button" onclick="sendWhatsAppFromForm()" class="flex-1 py-3 px-6 rounded-xl bg-leaf-600 hover:bg-leaf-700 text-white font-bold text-xs transition-colors shadow flex items-center justify-center gap-2">
+                <button type="button" onclick="sendWhatsAppFromForm()" class="flex-1 py-3 px-5 rounded-xl bg-emerald-600 hover:bg-emerald-700 text-white font-bold text-xs transition-colors shadow flex items-center justify-center gap-2">
                   <i class="fa-brands fa-whatsapp text-sm"></i> Send via WhatsApp
                 </button>
               </div>
 
-              <p id="form-feedback" class="hidden text-xs text-center font-medium p-2 rounded-lg bg-emerald-50 text-emerald-800 border border-emerald-200"></p>
+              <p id="form-feedback" class="hidden text-xs text-center font-medium p-2.5 rounded-lg bg-emerald-50 text-emerald-800 border border-emerald-200"></p>
             </form>
           </div>
         </div>
@@ -1581,7 +1485,7 @@
       <div class="grid grid-cols-1 md:grid-cols-4 gap-8 pb-10 border-b border-white/10">
         
         <!-- Col 1: Brand -->
-        <div class="space-y-4 md:col-span-1">
+        <div class="space-y-3.5 md:col-span-1">
           <div class="flex items-center space-x-2">
             <img src="rdo-logo.png" alt="RDO Logo" class="h-10 w-auto bg-white p-1 rounded">
             <span class="text-lg font-bold text-white font-heading">RDO</span>
@@ -1600,26 +1504,22 @@
           <ul class="space-y-1.5">
             <li><a href="#about" class="hover:text-white transition-colors">About RDO</a></li>
             <li><a href="#project" class="hover:text-white transition-colors">Learning Centres Model</a></li>
-            <li><a href="#components" class="hover:text-white transition-colors">Curriculum & 6 Pillars</a></li>
+            <li><a href="#pillars" class="hover:text-white transition-colors">Six Educational Pillars</a></li>
+            <li><a href="#schedule" class="hover:text-white transition-colors">Daily Schedule</a></li>
             <li><a href="#camps" class="hover:text-white transition-colors">Camp 4, 5, 17, 18 Locations</a></li>
-            <li><a href="#budget" class="hover:text-white transition-colors">Budget ($50,000) & MEAL</a></li>
-            <li><a href="#safeguarding" class="hover:text-white transition-colors">Child Safeguarding & PSEA</a></li>
+            <li><a href="#accountability" class="hover:text-white transition-colors">Accountability & MEAL</a></li>
           </ul>
         </div>
 
-        <!-- Col 3: Documents & Action -->
+        <!-- Col 3: Principles & Policies -->
         <div class="space-y-2">
-          <h4 class="text-white font-bold uppercase tracking-wider text-xs">Official Documents</h4>
+          <h4 class="text-white font-bold uppercase tracking-wider text-xs">Policies & Standards</h4>
           <ul class="space-y-1.5">
-            <li>
-              <a href="RDO-Learning-Centres-Proposal.pdf" download class="text-leaf-400 hover:text-leaf-300 font-semibold flex items-center gap-1">
-                <i class="fa-solid fa-file-pdf text-red-400"></i> NRC Proposal 2026 (PDF)
-              </a>
-            </li>
             <li><a href="#safeguarding" class="hover:text-white transition-colors">Child Safeguarding Policy</a></li>
-            <li><a href="#safeguarding" class="hover:text-white transition-colors">GBV Referral Protocol</a></li>
-            <li><a href="#budget" class="hover:text-white transition-colors">Risk Management Matrix</a></li>
-            <li><a href="#get-involved" class="hover:text-white transition-colors">Sponsorship Tiers</a></li>
+            <li><a href="#safeguarding" class="hover:text-white transition-colors">PSEA Zero Tolerance</a></li>
+            <li><a href="#safeguarding" class="hover:text-white transition-colors">Survivor Referral Protocol</a></li>
+            <li><a href="#accountability" class="hover:text-white transition-colors">Community Feedback Channels</a></li>
+            <li><a href="#get-involved" class="hover:text-white transition-colors">Partnership Avenues</a></li>
           </ul>
         </div>
 
@@ -1636,7 +1536,7 @@
       </div>
 
       <!-- Bottom Disclaimer & Copyright -->
-      <div class="pt-6 flex flex-col sm:flex-row justify-between items-center gap-4 text-[11px] text-slate-500">
+      <div class="pt-6 flex flex-col sm:flex-row justify-between items-center gap-3 text-[11px] text-slate-500">
         <div>
           &copy; 2026 Rohingya Development Organisation (RDO). All Rights Reserved.
         </div>
@@ -1648,88 +1548,57 @@
     </div>
   </footer>
 
-  <!-- FLOATING WHATSAPP BUTTON -->
-  <a href="https://wa.me/8801879479062?text=Hello%20RDO,%20I%20would%20like%20to%20learn%20more%20about%20your%20Learning%20Centres%20project." target="_blank" class="fixed bottom-6 right-6 z-40 bg-emerald-500 hover:bg-emerald-600 text-white rounded-full p-3.5 shadow-2xl transition-all transform hover:scale-110 flex items-center justify-center group" aria-label="Chat on WhatsApp">
+  <!-- MOBILE BOTTOM STICKY ACTION BAR (VISIBLE ON SMARTPHONES ONLY) -->
+  <div class="fixed bottom-0 left-0 right-0 z-40 bg-white/95 backdrop-blur-md border-t border-slate-200 px-3 py-2 flex items-center justify-around md:hidden shadow-lg">
+    <a href="tel:+8801879479062" class="flex flex-col items-center text-slate-700 hover:text-brand-700 text-[10px] font-semibold py-1">
+      <i class="fa-solid fa-phone text-base text-brand-600 mb-0.5"></i>
+      <span>Call</span>
+    </a>
+    <a href="https://wa.me/8801879479062?text=Hello%20RDO,%20I%20would%20like%20to%20learn%20more%20about%20your%20learning%20centres." target="_blank" class="flex flex-col items-center text-emerald-700 hover:text-emerald-800 text-[10px] font-semibold py-1">
+      <i class="fa-brands fa-whatsapp text-lg text-emerald-600 mb-0.5"></i>
+      <span>WhatsApp</span>
+    </a>
+    <a href="mailto:rohingyadevelopmento@gmail.com" class="flex flex-col items-center text-slate-700 hover:text-brand-700 text-[10px] font-semibold py-1">
+      <i class="fa-solid fa-envelope text-base text-slate-600 mb-0.5"></i>
+      <span>Email</span>
+    </a>
+    <a href="#get-involved" class="flex items-center gap-1 bg-brand-700 text-white px-3 py-1.5 rounded-lg text-xs font-bold shadow-xs">
+      <i class="fa-solid fa-handshake"></i>
+      <span>Partner</span>
+    </a>
+  </div>
+
+  <!-- FLOATING WHATSAPP BUTTON (DESKTOP & TABLET ONLY) -->
+  <a href="https://wa.me/8801879479062?text=Hello%20RDO,%20I%20would%20like%20to%20learn%20more%20about%20your%20learning%20centres." target="_blank" class="hidden md:flex fixed bottom-6 right-6 z-40 bg-emerald-500 hover:bg-emerald-600 text-white rounded-full p-3.5 shadow-2xl transition-all transform hover:scale-110 items-center justify-center group" aria-label="Chat on WhatsApp">
     <i class="fa-brands fa-whatsapp text-2xl"></i>
     <span class="max-w-0 overflow-hidden whitespace-nowrap group-hover:max-w-xs transition-all duration-300 ease-in-out font-bold text-xs pl-0 group-hover:pl-2">
       WhatsApp Us
     </span>
   </a>
 
-  <!-- PROPOSAL SUMMARY MODAL -->
-  <div id="proposal-modal" class="fixed inset-0 z-50 bg-slate-900/80 backdrop-blur-sm hidden items-center justify-center p-4">
-    <div class="bg-white rounded-2xl max-w-3xl w-full max-h-[90vh] overflow-y-auto p-6 sm:p-8 relative shadow-2xl">
-      <button onclick="closeProposalModal()" class="absolute top-4 right-4 text-slate-400 hover:text-slate-600 text-xl font-bold w-8 h-8 rounded-full bg-slate-100 flex items-center justify-center" aria-label="Close modal">
-        &times;
-      </button>
-
-      <div class="flex items-center space-x-3 mb-4">
-        <img src="rdo-logo.png" alt="RDO" class="h-10 w-auto">
-        <div>
-          <h3 class="text-lg font-bold text-brand-950 font-heading">Project Proposal to NRC (October 2026)</h3>
-          <p class="text-xs text-slate-500">RDO Learning Centres for Rohingya Children & Youth</p>
-        </div>
-      </div>
-
-      <div class="space-y-4 text-xs sm:text-sm text-slate-700 leading-relaxed">
-        <div class="p-3 bg-brand-50 rounded-xl border border-brand-200">
-          <p class="font-semibold text-brand-900">
-            Submission Target: Norwegian Refugee Council (NRC), Bangladesh • Cox's Bazar
-          </p>
-          <p class="text-xs text-brand-800">Prepared by: Ershad Hossain, Founder / Executive Director</p>
-        </div>
-
-        <h4 class="font-bold text-slate-900 text-sm">Key Project Parameters:</h4>
-        <ul class="list-disc pl-5 space-y-1">
-          <li><strong>Locations:</strong> Camps 4, 5, 17, and 18, Cox's Bazar, Bangladesh</li>
-          <li><strong>Direct Beneficiaries:</strong> 200 Rohingya students (50 per centre; &ge;50% girls target)</li>
-          <li><strong>Budget:</strong> USD $50,000 for 12 months (~$250/student; ~$12,500/centre)</li>
-          <li><strong>Key Pillars:</strong> Foundational learning, digital literacy, life skills, child protection, GBV prevention, and sports/arts.</li>
-          <li><strong>Coordination:</strong> Service mapping and coordination with NRC, UNHCR, RRRC, and Camp in Charge before operational launch.</li>
-          <li><strong>Safeguarding:</strong> PSEA code of conduct, trained female focal point, and survivor-centred referral pathways.</li>
-        </ul>
-
-        <div class="pt-4 flex flex-col sm:flex-row gap-3">
-          <a href="RDO-Learning-Centres-Proposal.pdf" download class="flex-1 py-2.5 px-4 rounded-xl bg-brand-700 hover:bg-brand-800 text-white font-bold text-xs text-center transition-colors shadow">
-            <i class="fa-solid fa-file-pdf mr-1 text-red-400"></i> Download Official 7-Page PDF
-          </a>
-          <button onclick="closeProposalModal()" class="py-2.5 px-4 rounded-xl bg-slate-100 hover:bg-slate-200 text-slate-700 font-semibold text-xs transition-colors">
-            Close Summary
-          </button>
-        </div>
-      </div>
-    </div>
-  </div>
-
   <!-- JAVASCRIPT LOGIC -->
   <script>
     // Mobile Navigation Toggle
     const menuBtn = document.getElementById('mobile-menu-btn');
     const mobileMenu = document.getElementById('mobile-menu');
+    const menuIcon = document.getElementById('menu-icon');
     const mobileLinks = document.querySelectorAll('.mobile-nav-link');
 
     menuBtn.addEventListener('click', () => {
       mobileMenu.classList.toggle('hidden');
+      if (mobileMenu.classList.contains('hidden')) {
+        menuIcon.className = 'fa-solid fa-bars text-xl';
+      } else {
+        menuIcon.className = 'fa-solid fa-xmark text-xl';
+      }
     });
 
     mobileLinks.forEach(link => {
       link.addEventListener('click', () => {
         mobileMenu.classList.add('hidden');
+        menuIcon.className = 'fa-solid fa-bars text-xl';
       });
     });
-
-    // Proposal Modal
-    function openProposalModal() {
-      const modal = document.getElementById('proposal-modal');
-      modal.classList.remove('hidden');
-      modal.classList.add('flex');
-    }
-
-    function closeProposalModal() {
-      const modal = document.getElementById('proposal-modal');
-      modal.classList.add('hidden');
-      modal.classList.remove('flex');
-    }
 
     // Contact Form handling
     function handleFormSubmit(e) {
@@ -1744,15 +1613,15 @@
         `Name: ${name}\n` +
         `Organization: ${org || 'N/A'}\n` +
         `Email: ${email}\n` +
-        `Inquiry: ${subject}\n\n` +
+        `Subject: ${subject}\n\n` +
         `Message:\n${message}\n\n` +
         `-- Sent via RDO Website Contact Form`
       );
 
-      const mailtoLink = `mailto:rohingyadevelopmento@gmail.com?cc=irshaadhussainarsd@gmail.com&subject=${encodeURIComponent('[RDO Website] ' + subject + ' - ' + name)}&body=${body}`;
+      const mailtoLink = `mailto:rohingyadevelopmento@gmail.com?cc=irshaadhussainarsd@gmail.com&subject=${encodeURIComponent('[RDO Inquiry] ' + subject + ' - ' + name)}&body=${body}`;
       
       const feedback = document.getElementById('form-feedback');
-      feedback.textContent = "Opening your email client to dispatch message directly to Rohingya Development Organisation...";
+      feedback.textContent = "Opening your email application to send your message to Rohingya Development Organisation...";
       feedback.classList.remove('hidden');
 
       setTimeout(() => {
@@ -1764,7 +1633,7 @@
       const name = document.getElementById('contact-name').value || 'Visitor';
       const org = document.getElementById('contact-org').value || 'N/A';
       const subject = document.getElementById('contact-subject').value;
-      const message = document.getElementById('contact-message').value || 'Hello, I would like to partner with RDO.';
+      const message = document.getElementById('contact-message').value || 'Hello, I would like to connect with RDO regarding collaboration.';
 
       const waText = encodeURIComponent(
         `Hello Ershad Hossain (RDO),\n\n` +
