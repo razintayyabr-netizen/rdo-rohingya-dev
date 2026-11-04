@@ -39,16 +39,25 @@ The Rohingya Development Organisation (RDO) works with humility, transparency, a
 
 ---
 
+## 📸 Authentic Rohingya Media Assets
+
+The website embeds authentic photographs from the Cox's Bazar refugee settlements:
+- `rohingya-children-camp.jpg` - Rohingya children in Kutupalong Refugee Camp
+- `rohingya-children-shelter.jpg` - Rohingya children by community shelters
+- `rohingya-youth-community.jpg` - Rohingya children and adolescent youth gathered together
+- `rohingya-camp-landscape.jpg` - The refugee settlement landscape in Cox's Bazar
+
+---
+
 ## 📱 Multi-Device Experience
 
-- **Desktop Version**: Full-width interactive layouts, detailed capability breakdowns, schedule overviews, sticky header navigation, and desktop-optimized hover states.
-- **Mobile Version**: Responsive single-column layouts, touch-friendly tap targets, hamburger drawer navigation, and a sticky bottom quick-action bar (`Call`, `WhatsApp`, `Email`, `Partner`) for direct one-tap mobile communication.
+- **Desktop Version**: Clean sticky navigation, documentary storytelling, camp overviews, and expanding floating WhatsApp badge.
+- **Mobile Version**: Streamlined single-column layout, touch-friendly tap targets, hamburger drawer navigation, and a sticky bottom quick-action bar (`Call`, `WhatsApp`, `Email`, `Connect`) with all primary contact details positioned cleanly below.
 
 ---
 
 ## 🚀 Live Website & Deployment
 
-This website is hosted via **GitHub Pages**.
-
-- **Live URL**: `https://razintayyabr-netizen.github.io/rdo-rohingya-dev/`
+Hosted via **GitHub Pages**:
+- **Live Website**: `https://razintayyabr-netizen.github.io/rdo-rohingya-dev/`
 - **Repository**: `https://github.com/razintayyabr-netizen/rdo-rohingya-dev`
